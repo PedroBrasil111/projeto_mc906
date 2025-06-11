@@ -2,41 +2,12 @@ import os
 import json
 import wget
 import requests
-import time
-from dotenv import load_dotenv
 from argparse import ArgumentParser
-
-load_dotenv()  # .env
-
-API_KEY = os.getenv("RIOT_API_KEY")
+from api import make_request
 
 RANKED_QUEUES = ["RANKED_SOLO_5x5", "RANKED_FLEX_SR"]
 RANKS = ["IRON", "BRONZE", "SILVER", "GOLD", "PLATINUM", "DIAMOND", "MASTER", "GRANDMASTER", "CHALLENGER"]
 REGION_MAPPING = {"BR": ["br1"], "NA": ["na1"], "OCE": ["oc1"], "EUNE": ["eun1"], "EUW": ["euw1"], "JP": ["jp1"], "KR": ["kr"], "LAN": ["la1", "la2"], "LAS": ["la1", "la2"], "RU": ["ru"], "TR": ["tr1"], "PH": ["ph2"], "TW": ["tw2"], "SG": ["sg2"], "VN": ["vn2"], "MENA": ["me1"],}
-
-TIME_SINCE_BREAK = time.time()
-REQ_SINCE_BREAK = 0
-REQ_LIMIT = 100
-REQ_TIME_LIMIT = 120
-
-def make_request(url):
-    url += f"?api_key={API_KEY}"
-    response = requests.get(url)
-    global TIME_SINCE_BREAK, REQ_SINCE_BREAK, REQ_LIMIT, REQ_TIME_LIMIT
-    REQ_SINCE_BREAK += 1
-    cond1 = REQ_SINCE_BREAK >= REQ_LIMIT
-    cond2 = response.status_code == 429
-    if cond1 or cond2:
-        elapsed_time = time.time() - TIME_SINCE_BREAK
-        if elapsed_time < REQ_TIME_LIMIT:
-            sleep_time = REQ_TIME_LIMIT - elapsed_time if cond1 else 120
-            print(f"\033[93mRate limit reached ({'cond1' if cond1 else 'cond2'}). Sleeping for {sleep_time:.2f} seconds.\033[0m")
-            time.sleep(sleep_time)
-        TIME_SINCE_BREAK = time.time()
-        REQ_SINCE_BREAK = 0
-    if cond2:
-        response = requests.get(url)  # Retry after waiting
-    return response
 
 def get_champion_html(champion_id, name):
     filename = f"champions_html/{name}.html"
@@ -50,39 +21,12 @@ def get_champion_html(champion_id, name):
     return filename
 
 def get_champion_ids():
-    split_str = 'class=\"champion well\"'
-    champions = []
-    ret = {}
-    if not os.path.exists("champions_html"):
-        os.makedirs("champions_html")
-    filename = "champions_html/index.html"
-    if os.path.exists(filename):
-        os.remove(filename)
-    index = wget.download('https://championmastery.gg/', out=filename)
-    with open(index, 'r', encoding='utf-8') as file:
-        lines = file.readlines()
-        for line in lines:
-            if not split_str in line:
-                continue
-            line = line.strip().split(split_str)
-            for l in line:
-                id = l[l.find('/champion?champion=') + 19:l.find('\" aria-label')]
-                try:
-                    id = int(id)
-                    assert id > 0
-                except:
-                    continue
-                name = l[l.find('aria-label=') + 12:l.find('Highscores') - 1]
-                name = name.replace("&#x27;", "'").replace("&amp;", "&").replace("&#x2F;", "/")
-                champions.append({
-                    'id': id,
-                    'name': name
-                })
-                ret[name] = id
-    with open("champions.json", 'w', encoding='utf-8') as file:
-        json.dump(champions, file, ensure_ascii=False, indent=4)
-    print(f"Total champions found: {len(champions)}")
-    return ret
+    if not os.path.exists("champions.json"):
+        wget.download("https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/champions.json", out="champions.json")
+    with open("champions.json", 'r', encoding='utf-8') as file:
+        champions = json.load(file)
+    champ_ids = {name.lower(): data['id'] for name, data in champions.items()}
+    return champ_ids
 
 def extract_from_html(html_file):
     players = []
@@ -182,8 +126,9 @@ def write_to_json(infos, output_file):
 
 def main(args):
     champ_ids = get_champion_ids()
-    #champions = list(champ_ids.keys())
-    champions = args.champion if args.champion else list(champ_ids.keys())
+    champions = [
+                 c.replace("'", "").lower() for c in args.champion
+                ] if args.champion else list(champ_ids.keys())
     if args.clean:
         print("Cleaning existing player info files...")
         for champion in champions:
@@ -199,15 +144,17 @@ def main(args):
         print(f"Processing champion: {champion} (ID: {id})")
         html_file = get_champion_html(id, champion)
         players = extract_from_html(html_file)
+        print(f"Extracting PUUIDs")
         infos = get_puuids(players)
+        print(f"Extracting ranked info")
         infos = get_ranked_info(infos)
         write_to_json(infos, f"player_info/{champion}_players.json")
         print()
         os.remove(html_file)
-    os.remove("champions_html/index.html")
 
 if __name__ == "__main__":
-    args = ArgumentParser(description="Get player information for specific champions.")
-    args.add_argument('--champion', type=str, nargs='+', help='List of champion names to process (default: all)')
-    args.add_argument('--clean', action='store_true', help='Make a clean run, removing existing player info files')
+    parser = ArgumentParser(description="Get player information for specific champions.")
+    parser.add_argument('--champion', type=str, nargs='+', help='List of champion names to process (default: all)')
+    parser.add_argument('--clean', action='store_true', help='Make a clean run, removing existing player info files')
+    args = parser.parse_args()
     main(args)
