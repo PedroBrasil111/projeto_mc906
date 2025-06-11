@@ -1,0 +1,8 @@
+scikit-learn
+numpy
+matplotlib
+pandas
+requests
+python-dotenv
+requests
+wget

@@ -1,0 +1,322 @@
+[
+    {
+        "gameName": "Ward Sniffer",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "nW0V8NqHDvQCQfN9jTBjuaPB7IZOr4fOWy4jXiInUgD3BWIu3BIVa5SNykC0osY6Lpfa4dlJB3ElXA",
+        "tier": "IRON",
+        "rank": "IV"
+    },
+    {
+        "gameName": "국산소",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "Lj8fqvI8GfNQSUhh0xFf4pvvIFsh5miPYU1isBEG2XrCa5jHuGcHNLWmoh4hkRQUesdkoSKbEbEnkA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "노랑용비",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "Pdpo1W_fIJe9NbTYoeT0ozqX0hP8hxXgTB9ZiXVkyGiTx5z4hSvmaHBgXuNT0cmj6fF6Mvy_C7sRww",
+        "tier": "PLATINUM",
+        "rank": "IV"
+    },
+    {
+        "gameName": "HexiOwnz",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "Y7JLyWnmEyD6zJRSkYrEORdALnXgvTISA43Hz6vnzYyO9WJ3EbkcqecvaqvUGQtRY0_KExlybPS2uQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "EAlistar",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "D1GnuX96NKFYzDKUDKip_3fiRwu3aTDEAO7-80IJQ6BKEzfR0VuRxV2SOhxaip5vjPkarJJyFydXkw",
+        "tier": "GOLD",
+        "rank": "I"
+    },
+    {
+        "gameName": "Mamalistar UA ",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "tQZuqwadOzgWtiXwcVXxkhdrlbKQC3PTZekmpIuVoaWvEOS01iZWuwNa4ncBnoDRKf8dNwza7INTRg",
+        "tier": "BRONZE",
+        "rank": "III"
+    },
+    {
+        "gameName": "微笑武神OuO",
+        "tagLine": "1859",
+        "region": "tw2",
+        "puuid": "BNLc-HsMHk_WnUi40I3pju6mH6_PcsbznmwA4YbSB15syApLQ6xk8b1M5sPXasR8sdoRVOtqh8NasA",
+        "tier": "BRONZE",
+        "rank": "III"
+    },
+    {
+        "gameName": "T0M S0JA",
+        "tagLine": "Moo",
+        "region": "euw1",
+        "puuid": "5WwipvUOPyQqKkPqdIOwci9K5HR6fmeQsX05Igb7kvRviW4PEfCvnfjuDC_4mZxrQcBdcEoOM5mnkQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "kjt4284",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "fCnA1q2K3zoTRqDmD2UHJYQ-RjBVRx8aitX7_Pi-W8xxq61DQbRwfm_uykVrSTA7U0TZW20FuYnFMg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Nairolf13",
+        "tagLine": "1980",
+        "region": "euw1",
+        "puuid": "PLDe-Vb5Xz9cQTfD5F0Wdz7jzXF-UH7cQOj15iD5C9lMxwpJmk18Ev4d1_UfrxNe2SSArnD1W6flag",
+        "tier": "GOLD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Rapan",
+        "tagLine": "BR1",
+        "region": "br1",
+        "puuid": "FMhrw74E8CajmC3HscExcWRQVm8WqDsFZhcVvVGgLfXP36Su4F4s21Fbb8f2HeeF6G_fi34ysvfBYQ",
+        "tier": "SILVER",
+        "rank": "III"
+    },
+    {
+        "gameName": "Czarniawy",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "RCWi2-icetFjwxqDopbXLckImXyGOWrK5JsS15_qBpe8axNMSdN8doVoEXCgJlwnjVgsduH3biG3SA",
+        "tier": "GOLD",
+        "rank": "III"
+    },
+    {
+        "gameName": "황폴레옹",
+        "tagLine": "알리장인",
+        "region": "kr",
+        "puuid": "1poQakSSY81neUhrpYPHjdYtyGbiNkfnRKvcQUT13bQYO8YP0iUaE8ydsExRbEh5CQ_Qf25VL8iCUg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "운동을 왜안해",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "eZIqbVdaQXtAoezICK1ppbRCto9aDWXGBMLwxiekJY-slHi0THE1gmiBQiubwo9Vgy6mw-HquSoX3w",
+        "tier": "EMERALD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Carolina Kid",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "Xk-QaHi-bhsxWo3vLKy2APiBz4wHFZOB16sOePaxhXB4FichqZwCOOxd_sZ-wOuHRhPzDb3hDD7YZA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Ræflexz",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "vP3bt5ZTWkqfylu8vY5iXXe96mJGFAInaEvJP22WlQapPSSes4xitE8uXa0b_llj0T4cyywMllCxlQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Smoke",
+        "tagLine": "DRY",
+        "region": "euw1",
+        "puuid": "bUmESDZweK6DOLEypcttaqvhh-yNgXIgrA4WDimVdJKdZALgnBBLYHlmwsab0foZuwXgbxovb2EatQ",
+        "tier": "DIAMOND",
+        "rank": "III"
+    },
+    {
+        "gameName": "Gado dmss",
+        "tagLine": "br1",
+        "region": "br1",
+        "puuid": "sBtxW_bgyzwYW9HK-axdAQ38Ss7gJ5Kgt4ge4WcHz19-cFK37qzfzA4jPkWvGfPEPl2j7u5VoaScjw",
+        "tier": "MASTER",
+        "rank": "I"
+    },
+    {
+        "gameName": "diekiss",
+        "tagLine": "1598",
+        "region": "tw2",
+        "puuid": "lEhW6ECYs-nJDU1JEHlHuQsIPsmic-W4uTDnUNU52pIQYuiQmqAiUbGubGFmfJ4MjS23qwt44fwIHw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "DiscoStuYE",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "SwDuWIMsz0Zi7QofTXvwz-9JYK4ZeglNpEO7Z2k11QRGf65QkxsehYWldhl0nXOYMpZp84tD6eJMTw",
+        "tier": "PLATINUM",
+        "rank": "I"
+    },
+    {
+        "gameName": "TEG RECNAC",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "LQ15OB2I_J7Hg4P4jHRdR78l1x37hjq8amPQ1W0Nl9GhOPg5q2JifMLjaHNi4a3xS8PmRpmDq2PyEw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Karavusk",
+        "tagLine": "cow",
+        "region": "euw1",
+        "puuid": "-eNKkfgbwc_dxVzXHA9uDjgWQqr_BISb2_2QJPgaxn6sGgav81j95Un9YFCd3LIWoqOe4GqDv_phtw",
+        "tier": "MASTER",
+        "rank": "I"
+    },
+    {
+        "gameName": "Theodrenis",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "U_m5BRkW33OqK5kT6DbNBWR6PQuD2RaD_2i7P0lAKCnMSsHlAfZPQECumQ_FKrfpvTdYQd50XiwVTA",
+        "tier": "SILVER",
+        "rank": "I"
+    },
+    {
+        "gameName": "KoprosTheGreat",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "RRwVf3KOpmCN8z4-8Y46zw4UAtclF7Tvx5admY65HG8z9SlGLP4o31HTzbUhW3Z9j6nK-mxBJ1GJug",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Alicopter",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "_vsCCfPsLeYxNtqcEW6Zhltbq16V3SaeeiebHUWOaoHsFIAeJmBu-cVog_wOXqkoHE6Rj-rBQo_6WQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "HC KreLL",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "JUejP0-r7mlUL9g_wUmhF_rju7Iy_QhumTmVzmPf8OTJNzUfqiYkDGOrtPgTCkImf0-4uGR14db18w",
+        "tier": "PLATINUM",
+        "rank": "III"
+    },
+    {
+        "gameName": "La vaca Lechera",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "kVukHLcUhKUO9uQ3dZpX9OwZwaCiBygmCxuXX0-hDIA3tMLFQt-IIjNsJNSMjsMKrbNtg6NXmJp8kg",
+        "tier": "EMERALD",
+        "rank": "I"
+    },
+    {
+        "gameName": "SatanslilHelper",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "FLcpl7Rc8HwD-iWblrlbJVd4yH6BmlvnWGuO-xUhKn1iM-nWUNjQnVswnJB8MG8ad0SyjOS5BVLT8A",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "CBI CowBoyShow",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "7fkp3cQB3AAuUE6QCZ4JbEwbM67O5AM-VrT7v9LRsCREqQXeCAKpg7r0iBIQwiu2B1oBuZSbrhuxBQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Bò Húc Ngiền Nát",
+        "tagLine": "vn2",
+        "region": "vn2",
+        "puuid": "S7rxpSPT7_CEMcyJg3rOWrHvJFDOGOSTvFmKZ4Of9x7-J4aeBigAzT0vn2mbEfDS2oOBrB6tsJogpg",
+        "tier": "SILVER",
+        "rank": "II"
+    },
+    {
+        "gameName": "마라탕환장녀",
+        "tagLine": "0000",
+        "region": "kr",
+        "puuid": "1MPyQVp7f9wUrYqNO2RfV-93130R0FitV8Q012Q0-ORwXi_twQ-oQ0cpVHqjhYU4OabTQWdJGtaNNA",
+        "tier": "MASTER",
+        "rank": "I"
+    },
+    {
+        "gameName": "mikiFrajer",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "UjD8o2Xh7OMsTh4VKdXnFxinkIbGQltcG6IFxBZYQOkEGJ4FdXw3dFN_bffHC4u_ShZkzCl4uuegJA",
+        "tier": "SILVER",
+        "rank": "IV"
+    },
+    {
+        "gameName": "m서폿감알리노밴m",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "y0vzENtRS2z7bVKPLDFJx0G1kxWrZdDuItKlRJfOpByiX1HIH_Y-cq8FukLFtu5LwSK-Rs7tjKS05Q",
+        "tier": "SILVER",
+        "rank": "IV"
+    },
+    {
+        "gameName": "LORD ALISTAR",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "Q9MixqWITimeB-QDP616VYYemVnInJRQwo27opiCPItZLb9VGJYU-k1srzL4dEiQrrWFC6Mukwh_LQ",
+        "tier": "GOLD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "katiepuppy",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "P-k0AYmCnAZjebFD1wApifl-VZ1QECneooSeTB1YS2HtgS2-JsO5_IipTryRp279sh7RtSkFxu_dSA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "sanchoPansa1800",
+        "tagLine": "1800",
+        "region": "eun1",
+        "puuid": "tLhQuVUvxmdhckgw6QT81CZ0cDH0LHYZE4DnaR754bSo3tx1Uq5DsGCR4tyxbaXhy4yhZwjcEuVP-A",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Anstisilence",
+        "tagLine": "TR1",
+        "region": "tr1",
+        "puuid": "BbHmk9EOYT_R4LS6xrNGQcN2CcML-imOgGAU6pci2wmZg8WgHy3RPAZlyBmsgVo4v3WUjD_uRDVNrg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "MvPetroZv5",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "fO5YZlGzaluA_svRuok3BiyzS0_s7-HxtInq8QYVbEchDl6cAEc7o_r2UzKRMZdjpRGYIFSbfz1LCQ",
+        "tier": "EMERALD",
+        "rank": "III"
+    },
+    {
+        "gameName": "minotauro",
+        "tagLine": "1234",
+        "region": "euw1",
+        "puuid": "N-OCNQb1RlLlKGlIfPEDIYWruO0c7pBPCIaBJs_8yZ9_AvrfQUHcE1hByKa9oWIV_vn2agkXhVhq8g",
+        "tier": "PLATINUM",
+        "rank": "II"
+    },
+    {
+        "gameName": "qiMip",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "JhkVvcGug-CTmFewf_2SXePSdGTOF8aquVt3bMCUVUXml9AuW-MttSbrmoBiA4NlEv8UlkmldZTgoQ",
+        "tier": null,
+        "rank": null
+    }
+]

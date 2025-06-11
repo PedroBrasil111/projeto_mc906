@@ -1,0 +1,370 @@
+[
+    {
+        "gameName": "annie bot",
+        "tagLine": "tibrs",
+        "region": "na1",
+        "puuid": "ZSXazLMbkjdiLYPHlI0aiUhGrHwYhqhk1TDzmPq5PZksNfUNW8oV--ZNXRhARp-xNiSCpnAVY18ogg",
+        "tier": "DIAMOND",
+        "rank": "II"
+    },
+    {
+        "gameName": "なつめ",
+        "tagLine": "アニー",
+        "region": "jp1",
+        "puuid": "Z3cngRg3ZPX6q4f3Z9f4fZq3EYDJZ2CrU1iwBY1xJIDAhtn18pQW70FbgQpMEuEFhEAK2_N_32EA7Q",
+        "tier": "EMERALD",
+        "rank": "II"
+    },
+    {
+        "gameName": "T14K",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "1HMGogjrbE_oQN5qzHNwxaO-TvCExpz3F9KLvrPl6GDYOSr3XKa3B-lXzRQ0nN247Ghx3gw5Vzr9cg",
+        "tier": "BRONZE",
+        "rank": "IV"
+    },
+    {
+        "gameName": "내곰인형못봤어",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "3wuGfxl-Ct27V5tq0fCoWF2GdSoOidHretNlLzSwfTB5iBwirV363hyHEEN7OEaq_-WSVENVqA4jzQ",
+        "tier": "EMERALD",
+        "rank": "III"
+    },
+    {
+        "gameName": "Jamtrack",
+        "tagLine": "LAS",
+        "region": "la1",
+        "puuid": "jUDSJd10yYj4dhUw7bzbJLBTb9tCAgRlMxAR9YOkwYaAdPUjWzBfW_v2FzrvGqTZbU4ATd2UjOFYSQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "AeQ Killua",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "dCxqKaAhJc2QZrGEwVgAm1W-xTv7MoccpOCHABon_6zcJEPhan87kDo26WSz9UL2L5dQVCCAV1wC2Q",
+        "tier": "IRON",
+        "rank": "IV"
+    },
+    {
+        "gameName": "000000000000123",
+        "tagLine": "BR1",
+        "region": "br1",
+        "puuid": "hm6CujUYx3bFb6bilN2I33kACo6Y2Z-4hrmEohYyH_1ukeFoQGdP1GIQnk_nPJyhFut5YsIYE6Phjg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Killer666MK",
+        "tagLine": "DARK",
+        "region": "eun1",
+        "puuid": "ebm0Ctcwvu4ykig6hfktaA8Dhl-Sd4GbnxYz89ZUXG5Lko2OBMC_tsaQWzmIV1kgSro7FgzTs1_ZPQ",
+        "tier": "EMERALD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "summer1313",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "92lYzj2b2ltlIzgX1RYolVNsvGY2CIlDO_4zEYNgGrIljqnw4vv1jqw-LKgB7DapC9gtQL2FPmhijQ",
+        "tier": "BRONZE",
+        "rank": "IV"
+    },
+    {
+        "gameName": "üÜüöüÖöüÖööÖ",
+        "tagLine": "tw2",
+        "region": "tw2",
+        "puuid": "xqrOS6sNFlU8tzJKOs6RDJMloIRuRGdgP9mWJOJvof_-PWYEms5F0u5aHTQS_E_yfNKn9c-gmrnSjw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Tibbers",
+        "tagLine": "7017",
+        "region": "tw2",
+        "puuid": "t1eEcPhJBodJykk2SggMm6JcbmQJRtvLk7ImOq33as6eGmB1zmzC9PdwENgDd2pO59TNOmwtFy5hEg",
+        "tier": "PLATINUM",
+        "rank": "III"
+    },
+    {
+        "gameName": "017 AnnieRX",
+        "tagLine": "annie",
+        "region": "br1",
+        "puuid": "qSU5dqWGQoma7kamRa1fTKMu3XSPFunIO8r6tIeLY0p62B72C4mxFL1qRnunZSpWiGbt0ElgXdWqSQ",
+        "tier": "DIAMOND",
+        "rank": "I"
+    },
+    {
+        "gameName": "Annie on Bush",
+        "tagLine": "Annie",
+        "region": "la1",
+        "puuid": "QmPytSEIYLP7h3m9VQOC6bJb43XLvsKiWTv7EosbNwJ8856BYLEN0dwgttkjWAwRhbjGFtc2Jsypig",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "애니좀치는사람",
+        "tagLine": "kok",
+        "region": "kr",
+        "puuid": "bdfF6mtLGG5zm-Hm_EWcjKIFr77jTsHoue5zxqM10KvxQkuVZC-cg_QRx-xEJkUQiYE_QUan2O9vYQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Noppert GOAT",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "a2EVjr9Bxpt28TbiesqJwipl3Pz-B59HhsEWHy7fLnMFWj__T6JBqfKM7idCqEbVIGmo2r3SPkBNPw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "PAX Lix",
+        "tagLine": "dad",
+        "region": "la1",
+        "puuid": "mtn1-dYctLSKKZQJcXcqS5C9XTGfoDDFCFgQfkS-hX6bA10KyeHk-IYRREKLY_lpaz5EWVnQp517Yw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Sale",
+        "tagLine": "br1",
+        "region": "br1",
+        "puuid": "dD-uytqPwjayddUoorAIgrg_MFMSXwG_yHNh_9ma1c2vGCMik-u3hdNt0_tDnIQS3v_QOmlmyf4w7A",
+        "tier": "SILVER",
+        "rank": "I"
+    },
+    {
+        "gameName": "Anestra1227",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "t3GSP46BObJPU0LXBO4_LUoAXeo-vb4GFAzrtFGVUKijgyGz5xerUnWKCDnPlxaqZ4Hf73Zj9UF9Wg",
+        "tier": "SILVER",
+        "rank": "II"
+    },
+    {
+        "gameName": "electric mist",
+        "tagLine": "LTU",
+        "region": "euw1",
+        "puuid": "_iDTfY6GugLJTi4646_pW2wyO6-hxJMS3YT74BBiDfuVkI415DSafyJF9Bhx0JJV06AhVbjg7oWLjA",
+        "tier": "PLATINUM",
+        "rank": "I"
+    },
+    {
+        "gameName": "煞氣a豬小弟",
+        "tagLine": "安妮王",
+        "region": "tw2",
+        "puuid": "JpFoZrUvclxWVgxDBoDEoMn0_npEQtDuUV32VmLJAjnmAy_KHkaOKDqh57tpgRfMRsRG-bJ0PQOMKA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "111iii11ii1i",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "TpBHNLyQOEjFUrAhYEaoDTnCucTc7b969Sq8MW9w77qBCd4qiJhW3IT2VjJEkJwA9dkJJjqTuiLqsA",
+        "tier": "DIAMOND",
+        "rank": "IV"
+    },
+    {
+        "gameName": "보스턴도그",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "gU3wp_t6oftUCQ-66_5ULFe4d0G_tSCIayGCcQHBPVvpFBhyxC3xCuiiwV6kIiqNb4BwSQwSA-8Zvw",
+        "tier": "SILVER",
+        "rank": "II"
+    },
+    {
+        "gameName": "Annie",
+        "tagLine": "Tibbr",
+        "region": "na1",
+        "puuid": "YC1mWh8L6wjshDxrTSp1J60DW_mxQZZkKoqxpTyMXgbhQnCulUsTiYSdzyjaGRhhNjA9w4v-TFCZwg",
+        "tier": "GOLD",
+        "rank": "I"
+    },
+    {
+        "gameName": "까칠한애니",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "Rqb74MsS2zqqhsRGYhCdlaUzYmj-rQ0hd_SwHL5kYabpM_u2yXd3kmyPX1cI4idrIOQAdQjzEAbdvw",
+        "tier": "GOLD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "OneTrickAnniee",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "-DL0RU13BGTSfaJl7ydFMsW9SplzLaN9balSMBJPE0cl2rULzUI7F236YAlMlBqEHnGuAMmoRfGcoQ",
+        "tier": "EMERALD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "To 애니",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "XJEPi9tUYIGP7k5MuMVT1_kq0kpzkekZqpEr6eI6elsqyPxskwQPHIHLiCe3MViHvuzv53sW3hE5hg",
+        "tier": "GOLD",
+        "rank": "I"
+    },
+    {
+        "gameName": "Evo9",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "4iixBk0IXoLM4nVPjisH_Ozev1W41QXrfb2Ss3on6zqy0pQm57c0_wD6UvO3EMlaQm0AioAa9GhxOw",
+        "tier": "GOLD",
+        "rank": "III"
+    },
+    {
+        "gameName": "DMNchan",
+        "tagLine": "JP1",
+        "region": "jp1",
+        "puuid": "c3ARAaTkuTOCySFzIYG6xkSxYxEo3D3uoI3A5qWocWJffBoO95qIH9cGf-yerlbhf5MQX6q7cltEQA",
+        "tier": "PLATINUM",
+        "rank": "II"
+    },
+    {
+        "gameName": "애니버스데이투유",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "PfPioY7PqgNF1CpMiY6Egw6d5JENDfTs1jB6J5yJfsyoiSPv5krlGAA2PTPC1q_JZz2T49vtJ2dZqA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "말만해던져줄게",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "9y__vt7VHjHKx8HRUx0NjhE24KjZOuiKa9YoPe_6OY-cUirA6OaxEB9ShdDNQut0BphiqVU1JOSwrA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "SPARKLING ANNIE",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "SH6cWV7sO4gUETAUBHHTXHYCA_bEUFX6MhPMaw0QFhU-xqNOU7YI6Z0l5CcY44WGo7QMx_CDnS7BNQ",
+        "tier": "GOLD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "albié",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "fIrHmqwGdWhpq2MX7Jgdv2IP86wJ7fzw4E9pT8arYbcIxfZMRA0qJFCJVLU00anEid9ZX_O8-xa4gw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Hewwy",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "M952WLb09LZKVbUYTB-xwHAwxgU-X8cmzk2uSTrSOIoU0G8ESg_Zsnaa_CLcKgllSTmBcPvwGXCHQw",
+        "tier": "PLATINUM",
+        "rank": "II"
+    },
+    {
+        "gameName": "The Dark Child",
+        "tagLine": "Annie",
+        "region": "euw1",
+        "puuid": "h7Sb3w_UpHygg79WKhFSavkvz-KOjEeJb6HNH8ky_PLQieNjImVfFGo0aIreQHhNlidYaWwujuYSVQ",
+        "tier": "EMERALD",
+        "rank": "I"
+    },
+    {
+        "gameName": "annie only here",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "VPBHD9wyGRvSIkyXQCYA4XIaJGHSx6JOyBqJxdhkJONW8sJndqR-_tTcJOlomcxYjcPQBf-gC9MF5w",
+        "tier": "PLATINUM",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Annie IRL",
+        "tagLine": "Annie",
+        "region": "euw1",
+        "puuid": "ycouRD1GOLEqUUtJv_Ex360JrvAmZEnFgYx5VCPuFtHNdU5ymYYQHelB7EFGsX36gecSQSpTqm_n9Q",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "你見過我的小熊嗎",
+        "tagLine": "4370",
+        "region": "tw2",
+        "puuid": "zBMKqKG54XkD6m5wlyEg1MQU6LQviNcVcRa4EerOXDuci2xUBsRsLULTMTUHZCwA3aFStSRcgBDIKg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Angel beats01",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "M95T8RYM0ndUHhVO7GeYpj6PceJw5y_ZFT7XmkvSlpcRI0q-Ip4jLP1HEkmTR7dKlEUbGndjaBIJig",
+        "tier": "IRON",
+        "rank": "III"
+    },
+    {
+        "gameName": "not Anniemore",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "IGhAouyeU48vTB7VFAqVck1kgTcxV5YZ_-qdMAXvgw4EvJ2H7fmaOgYW6xyZSX0Hk-n6o7GLs6GJKQ",
+        "tier": "EMERALD",
+        "rank": "II"
+    },
+    {
+        "gameName": "1164077del",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "h_B6qBN-2Uh8Bo47DujZo7w0iNnRL9N67ZHU23JWPHi1EE56qjf65V62mjXBiB4vBXscbsGHoXIbPQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "srjain3",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "4ZPm6kXSY558xlEYiu6IsfLXxQzjO4gKkr4KHT0zxAopauK64JLVUCEed7zkJE8y7UDpgd_JGvriyA",
+        "tier": "PLATINUM",
+        "rank": "IV"
+    },
+    {
+        "gameName": "룰루꽃",
+        "tagLine": "애니꽃",
+        "region": "kr",
+        "puuid": "nu8jUYyQKZ5xL2pHjoxFHUjAH9oTUalTdSmmVQZpxOSIl6x8_EYZKAB8WichDPCVYmTfzcGVaFmu2A",
+        "tier": "DIAMOND",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Encripta",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "0_7hgQZWunO3uvFjg5vX-k6B8cg4bJV0OBpKenN6NUCsAli9SrS3f9ljfWVlCg5UoAqNS5XKb6UYOw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "chongko8888",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "7cDlSMGULa_ksxMeSd4cq908qR8OYfjYgwzZILfLyaBcEIZrZ1BPnCNKvCyjb5HNZkRcDmBI02FIwA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "SA JulesFlows",
+        "tagLine": "ANNIE",
+        "region": "la1",
+        "puuid": "l-UgAnqZBjsAL0zjGgxUbYm85vb8-otiMSvHISk05Z3gB0Pskg9Zd7-AMj2eVEQvDr-ATc2Se_mPUw",
+        "tier": "EMERALD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "COMANDANTELEOZIN",
+        "tagLine": "br1",
+        "region": "br1",
+        "puuid": "lruMGrj89D4FF31VFRqxq-Dt-_-RAq2SLEmPxtGaqzCpo20WnGBhCDW4q9oKbSuPqinU4j5KXQFrLg",
+        "tier": "SILVER",
+        "rank": "IV"
+    }
+]

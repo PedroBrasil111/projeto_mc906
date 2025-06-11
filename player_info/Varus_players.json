@@ -1,0 +1,370 @@
+[
+    {
+        "gameName": "Eisuke",
+        "tagLine": "Reiko",
+        "region": "na1",
+        "puuid": "dTYyoSO42cIeA5ycsO_5BgUXsJiibB-iiSB7mKZWSq0SduokS7aKFYmzXQU0SAATbw60GI4ZrX4NtA",
+        "tier": "MASTER",
+        "rank": "I"
+    },
+    {
+        "gameName": "南無 大悲手",
+        "tagLine": "tw2",
+        "region": "tw2",
+        "puuid": "Svg5w9szyYm_NrZl7Ho_infFku0XC-mMrjixSXFCXulPelE_4CgPrzjFLPuHq51nBxHj873jz1FJnw",
+        "tier": "IRON",
+        "rank": "III"
+    },
+    {
+        "gameName": "Mevarus",
+        "tagLine": "Mev",
+        "region": "euw1",
+        "puuid": "5ExOCZUxd0dFC0vpHb8WZRab0Gl15iNnYW6jnK1Kerbt-ZaR4N73zrLtcc9XnOwGdvDQQO-1UELTIQ",
+        "tier": "EMERALD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Archanegel",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "h2xxl05a_sz2R5kPgWxJyhvslD6KmzxtQq_njLyLeC-V3FldBKZIvQhy5GiOLkIx5PJBycSlJtX0qg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Ðarkîn bøw",
+        "tagLine": "GoNxt",
+        "region": "la1",
+        "puuid": "LfNH0JhPctezkMYjlRXV-Nhio3_KNCKpFFvPgdsqn9dP1r38KKfrtAFANM3Qsrfk94WuOKfPSC9l8Q",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "55202023del",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "duZG_jM6YNlZ-pHF5HDTKFSvr7SQiUY_PGpScpMWD0pvItlh2LiZENTEni8GM0aPo09FqB2mf8wcPg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "ReiPhoenix",
+        "tagLine": "br1",
+        "region": "br1",
+        "puuid": "QaYG1Z9jp1BTr7CNa9yia83gniIDxwlUVdIdWcF7UidGImOB03qR3NVSzM1qCsnXa4IG9OFIoaWdug",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Rаziel",
+        "tagLine": "RU1",
+        "region": "ru",
+        "puuid": "AzpB0B03d4xAJpeyNaPZtfWakjnrcuEJskVJuZW3uH3odJDSHg1QFFsSqWjTvh7fHKtMO1q7MB6eNw",
+        "tier": "PLATINUM",
+        "rank": "III"
+    },
+    {
+        "gameName": "Lajavko",
+        "tagLine": "SRB",
+        "region": "eun1",
+        "puuid": "o7_R-zFgjAzPz177UlS8wnlJvryfZBNmxtTv0nPhRfsCbkYe_YFqUAC9oFYn2iekNYHxHIv0roqDPg",
+        "tier": "IRON",
+        "rank": "III"
+    },
+    {
+        "gameName": "RicardoStik",
+        "tagLine": "LAN",
+        "region": "la1",
+        "puuid": "zCSOWisZNxEK-E0sxo4wsP8j19Tg0c5G9tT2IVWC7SSWLgJPdj1q-HkqYiWbfR6M3s7Q5O780K4JhA",
+        "tier": "SILVER",
+        "rank": "II"
+    },
+    {
+        "gameName": "skffkrkwk",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "x-hQGbcCpuWY6ZVfkv27BfHpy1FnCrBqaGhMj0i8H_Uc3x-ucTYjz2bqmH4TooKftE4F4j5PDMDWng",
+        "tier": "IRON",
+        "rank": "III"
+    },
+    {
+        "gameName": "roadkill300",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "H53u7bZKtuUdLN34NplgPFHgSaLm5PKJ0NE3CAxw__t5BuRZHpZW9hrliy2ZqDpFpa0fPdVQEeE-NA",
+        "tier": "BRONZE",
+        "rank": "III"
+    },
+    {
+        "gameName": "Bugs Bunny",
+        "tagLine": "0946",
+        "region": "euw1",
+        "puuid": "WP87bq57w6xAd2X-hcpwpyCRtBlflAooBJ1MikSTvy9P11A_7tu8vArvks6_qm6epfqxO4FlCJdcOg",
+        "tier": "PLATINUM",
+        "rank": "II"
+    },
+    {
+        "gameName": "asdewr",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "sXot4K1i4I0wlT28-WDFd7I69f6a5Vzsgw6AlJypjmJmhpE-HQ0Fj3_rJbO1zVrxtAmOBqQt8lr5Xw",
+        "tier": "IRON",
+        "rank": "III"
+    },
+    {
+        "gameName": "predators11",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "uZFr9Tv5x2PF3ho6qSIkbv8whkO1vLOrMEH2tziGaVqGhfK7_qM9OStAmf0dKCnyHSy3IKoOtLzxzQ",
+        "tier": "EMERALD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Brutha81",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "uNTYXRupq4-i_0690ae5_lD9lqUGAQdJkwLqq9Im8shDJt1dZh65OrnlVs4QUgUEkcoPY9r2D0gSMA",
+        "tier": "BRONZE",
+        "rank": "IV"
+    },
+    {
+        "gameName": "악마사냥꾼79",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "C21x-v68rmAzzTL91R3yOzAX2DAAUeV9l_Oalm3JajaGbr5oMYcONfsfADRdf9ttpsdNByS2iMY6Ug",
+        "tier": "GOLD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "HG Idriss",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "qeCbMVaFfdxh8tmBBmxZmNTMuyHXrY2-eB3u113GyPZMsunoK6Bvqxf_PPQXtwesICmEwuaNRIk7pQ",
+        "tier": "PLATINUM",
+        "rank": "IV"
+    },
+    {
+        "gameName": "leesnett",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "luhYhibahsCmdQ3rjVfCmkC71rJtnXpURw2O4-4MSmNR4fbaSn77rU1Qc_u3xC5zk6VlHK9DLZEXRw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "White Flash",
+        "tagLine": "316",
+        "region": "na1",
+        "puuid": "3y8B1SjMNH27xO9S-HJ2_iwnXOqgERzz-ExGaVGj5CE_5bDou2bcaAF6E2mSyl9Ij6FehfH8vf-JtA",
+        "tier": "PLATINUM",
+        "rank": "IV"
+    },
+    {
+        "gameName": "laurre nor",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "eHiij1Bwl4XP1UsQrFzmUYw8NfkDCSDvUxhJA-9vzlMjm4fr9uRfly1RWMnq_-yFfqmPnps8xEpR9w",
+        "tier": "IRON",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Saltuk BatuKhan",
+        "tagLine": "TR1",
+        "region": "tr1",
+        "puuid": "RNOdFTeaSowBxZNUl5LsFu9tqWiat1hfRDlG5ByzNxugvOj6sMI2RPRCktXEfWqQBGesIdpL78GB3g",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "v7v7",
+        "tagLine": "br1",
+        "region": "br1",
+        "puuid": "ZxEniUKgedm163Bv2Rajxzwi5xaL421r0F-3UUI8Ku9fzy7cWHF2WOkFM7G2Qke5s6NkdqNCMRmGHg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "GustavoFBahia",
+        "tagLine": "br1",
+        "region": "br1",
+        "puuid": "KGMcUq9K0b4mPZPoIze2GKUlKGRB7S20PxR7796QEOl4YMYiipMo0cb2kfrepVZ1eE-ccvX12Cu2xg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Tu Foiador",
+        "tagLine": "LAN",
+        "region": "la1",
+        "puuid": "R4PNniclPAxpyFShmw4t_Z-QXKZ0fxvZLkfOauzgz2HG6483izWO8YF0tUl_riH14drvzlXQvEa2ww",
+        "tier": "BRONZE",
+        "rank": "III"
+    },
+    {
+        "gameName": "Алексей",
+        "tagLine": "RU1",
+        "region": "ru",
+        "puuid": "ADXuT5Qr5Oe9Qstd9erexoavSdNVuoJhIpal3Ug6ps6zoT1YymZRrBC43jVeVKzIo6jVHbVrixxoZg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "rmrldkslrh",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "bQ_mNs8gk6tYv7F-SLNkVW4IKkdFCxZnarR6RuhazJYIUp_1tkjkIIusHz3ZYGPX_wY_mNPJX0RgZA",
+        "tier": "IRON",
+        "rank": "II"
+    },
+    {
+        "gameName": "ricccardo",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "lYrZ9lDDSXpoqMMqfmTKW1DlfsSHsiQxaGHUcEg4LmVA69ZZaKKU3PkimVL8oi4Ne3TQSBh02ZlzUQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Ghator",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "SGFpRTy10HKOzHiBz-DyW8Alv6TCdjBDj9sDPfiXfNFzvn71tNV0xTh4TJ1BuEM7RAxfSUKHYWLmAg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "DonGato",
+        "tagLine": "purr",
+        "region": "na1",
+        "puuid": "DW3x9SpBHKon_BnrhiViZovOR07Ua2kMf7atNjjZOA65BKjSoKpxPFa3jqDpKEmgE5blrW0dQ_WJCQ",
+        "tier": "GOLD",
+        "rank": "I"
+    },
+    {
+        "gameName": "UOENOme13",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "qaSmWET7uI2pDQNO3Iy-nMVuz7QJd6CxWwChV9bbfOkn7Dm2bvbL4XWXMfFH3mI_XXrViKP6JwHtRw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "my Rules my Man",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "XE21vuwoV_aZGM9CHFrsDfr_N-S4hJIaJyF8276mbS9U5Kj37AepKe0QYp_wxSkEtNNVgok4wXsmLg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "chouloulou",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "eeiBiFn1xppZyiptVYDDvKbDPakz3-LP7ymxA9B3Dlx21jCTJc8CcQu7HygaWEIlnE5g7NBE_nCXJw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "SEALS Victor TFT",
+        "tagLine": "BR1",
+        "region": "br1",
+        "puuid": "5K-_m3BIKonrQSMQOX-gB7zgEkQjcA5C9YGh_fxO4qqQQksBwnBrUxdxpzDT4SRoPgxYxrAl9NrT2g",
+        "tier": "GOLD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "joyrusis",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "C6hB3oiL2bCj7_4aaW7xLb7B4Z-a6CFoWvqA2mN9dktQmL23W9nv19q-vVZjZoBU-WXFIHGYRNKh6Q",
+        "tier": "IRON",
+        "rank": "IV"
+    },
+    {
+        "gameName": "ArniGAD",
+        "tagLine": "RU1",
+        "region": "ru",
+        "puuid": "r2GA-HcDo0aYyZArP_7mt5aHFaIdQ0ZQPAeK1TX94nNf_BlY6IhdRJNE9WBLaQp60IRNXc90KGdl1g",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Ono Piett",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "fynw67PUv99EjRhMmgeQcOhE0RgHmvWyLF1pM07rRgZ_V9niQiex7AfQBfTy6tZ-0bpHgTMkG-9WFg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Cpt Park No1",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "d-kkTjA49rpoPmeXmNJBesrabBRU5vZr6962NvfQHcrC5W8c2uGbRqqyP_Wam_JceQUeNz5dWDEWqQ",
+        "tier": "GOLD",
+        "rank": "III"
+    },
+    {
+        "gameName": "AndresMth",
+        "tagLine": "7603",
+        "region": "la1",
+        "puuid": "Xt_cR4FGX8m1nM2MfI68QGwqnFkkpLLBUhiIsKfpKzEIog1DwuVL57MmzunxNgWX4dAh7eLGu3JwgA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "keloğlan123",
+        "tagLine": "tr1",
+        "region": "tr1",
+        "puuid": "FXQJkhrl03XDuvQd0QjhJhPZHnVVf_TlW_dRMoeaPzbkEyLgrbsmfJK83UlmNk-32CLdVhxQ45jTzA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "kadhaj",
+        "tagLine": "LAN",
+        "region": "la1",
+        "puuid": "fUwkzqkmx9VqKMz3r2MqKLg4M7N2rvfW4yFzbfnEzjNxUwVcyAO4D_6ucZxeTdPQbAyv8GMFxqUcjA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "ZavodOnly",
+        "tagLine": "RU1",
+        "region": "ru",
+        "puuid": "VXBX0Ek0XrzFCkhbpPUUgBJVEVRfR2qd7TUDVnbV6Sjjp9vUItNpQFL6NgVvkpXY6Ig-0OqztT3Izg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "DVDZR",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "a2yFZbW-JK-O0nMDyMUn8iGnTDFW1r8-HHNqdNpsD0BO53fTP5UZqRbccWCvjGJYOlyl4_ommjRXjA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "김루스",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "7GzPNJGD6wccW3QciPq5HUvb4uCuCEz1EaSZN9s2fCFAzY0cxWzAdy_YhQfcbGNO_vv4I-9OxVVOPw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "빠따빠삐용",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "dCIAL6Mg8XFFqg5q4ikhLR4LTRnAIzGIClYxCRfDUY_QJycnREHqF10tYmov-b6tERozVBW8NcOMAQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "SoulInDark",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "asDG3DZE244Fwnfq3RkKvIVh0unhw8OrnEe70FIwZv3v2zLtZ5_ZHHmzOeBSBvj1SDz50uwpOQ_GZQ",
+        "tier": null,
+        "rank": null
+    }
+]

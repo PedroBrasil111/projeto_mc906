@@ -1,0 +1,322 @@
+[
+    {
+        "gameName": "Proosia",
+        "tagLine": "nahz",
+        "region": "na1",
+        "puuid": "AtCGFSNImTyXe1Hav14JhxYsbTWdQuPUCVBYPDrs2Hcb964T_o6nroWDrjerFt1SyLc9TJ04pf6FLg",
+        "tier": "MASTER",
+        "rank": "I"
+    },
+    {
+        "gameName": "ExcaliberPrime",
+        "tagLine": "H33",
+        "region": "na1",
+        "puuid": "rZwdnbc25E5ntYVrfWsXV9JJsw_hQaLCv6dgpgT7QomwZ1Kxlvdo-CLLB1H7PNEXj1TNLtH-KSTiUQ",
+        "tier": "MASTER",
+        "rank": "I"
+    },
+    {
+        "gameName": "mrammonit",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "9vH23FgHzodfUNsRnCQcKXn3Jit0vU0KOAYUB2GlfoDK9ecsLqfEhqFy6mW7T1FSy6Ns_md_jF3hSg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Jeeryxus",
+        "tagLine": "Ahri",
+        "region": "euw1",
+        "puuid": "vsVDv2JydERgLpMBl0_EEFlDOIMehCSLgGN9EnoGKAcGUsnY6LJI3Csdm0BhyNsLdUmfSl1W1_AByQ",
+        "tier": "DIAMOND",
+        "rank": "II"
+    },
+    {
+        "gameName": "Blossomfox",
+        "tagLine": "FOX",
+        "region": "la1",
+        "puuid": "EfW54YjBd1q-s6EUdbrjcp2RX_X8tON3WHY8nbc6RqnOPmoVs9gtj5TJalv-hCAlbC3qlVftsdkBwQ",
+        "tier": "EMERALD",
+        "rank": "III"
+    },
+    {
+        "gameName": "7kk",
+        "tagLine": "SOLO",
+        "region": "euw1",
+        "puuid": "6fZ4iVPuMkFio_FalSzEGXw0r6oNqB2A-gfxcWHXyM6rAbWkYsad4rZ5kxv5S8kEYxxnf2RGiuX5Hw",
+        "tier": "SILVER",
+        "rank": "IV"
+    },
+    {
+        "gameName": "rlaals10",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "vxE-4U5UgjfAXEJakkdDgu3YrBaqzDVRc4j27iGOXnqFRyD7sGQuJobk0ZPX8EoX29FvshQouSP3HA",
+        "tier": "SILVER",
+        "rank": "III"
+    },
+    {
+        "gameName": "Noelatfiske",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "s4lQC7QAAV0OcRUzfDvv-eWyNS3PMJcKWcIBBIrkOJck1VRt9lzjaiWNMQecoHoyM2tVpcyYLNSzCw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "The Wild Fox",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "aGW0FUHdBhQXxu-MFzwqZ1liGZm2MBmXTIZt6TM9_Wq5UFrZyN1XatnIV2QOnJvTKzbOKMZ_CH3akQ",
+        "tier": "DIAMOND",
+        "rank": "II"
+    },
+    {
+        "gameName": "bellc",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "PGF5nRB7O02yCHG_eFCfDvm208VvkGpXDGH9SgXbryS7TcUhmyuAMnwpQfRyd5vm4xHhTlFaTM4hdg",
+        "tier": "BRONZE",
+        "rank": "III"
+    },
+    {
+        "gameName": "ZUN",
+        "tagLine": "3428",
+        "region": "la1",
+        "puuid": "Teo0DVwqGyJayhc10TirqAL9ynLVw9kNf5gY75L8yERfxVXCvtFg1VrtBqT6ocZ6PKgbIAqRzP_SWg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "antonio1120",
+        "tagLine": "LAN",
+        "region": "la1",
+        "puuid": "BHfAflmekNLOxDrtVRvVEuTrFqHrfdgHI_3PspHsFZuu1EnM2nkMvZM831uon0UA-k0xaquQyhU3bw",
+        "tier": "GOLD",
+        "rank": "III"
+    },
+    {
+        "gameName": "佐治莫",
+        "tagLine": "Jojim",
+        "region": "na1",
+        "puuid": "QfDZa98TjW1Qam2XAxlbrK5CDIY3G7FmtgiCjHI7vZ9jBFaZF5VPaWXD11BRGPRz9ctvHxZQ5M6lqA",
+        "tier": "DIAMOND",
+        "rank": "II"
+    },
+    {
+        "gameName": "FabWarlock",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "Q7CnKEPHMAGBDWRsUNUonCXuQpQ4ZACk7vnU-8vdX5voadPvNW3nyvShPXrdSN0dwtfbSyOT7jgo8Q",
+        "tier": "BRONZE",
+        "rank": "II"
+    },
+    {
+        "gameName": "허거덩",
+        "tagLine": "KR 2",
+        "region": "kr",
+        "puuid": "joTYCbZmyg5QKd8aBNCS_joNnKmbBf_yJLSS9UjQMTgBnw11Q2-X7TkSUUbuSiPTmAe-jDEcf75zWA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "HunterDragon",
+        "tagLine": "LAN",
+        "region": "la1",
+        "puuid": "5qmMSMfkVRou6CfjQvvugQtNy8DmokwWK4rhsZlEOR4vbqOtQo-ku5uKpfmf4sdCkLPaTEgslcWuhg",
+        "tier": "PLATINUM",
+        "rank": "II"
+    },
+    {
+        "gameName": "Kyumiho v9",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "tLU226iJGEZKzye58eDAv155LNrKNvbqugKFn7Tr5akbX4DdO6oSVG_DXrlkdu7RUnPhBb23xpHvFg",
+        "tier": "EMERALD",
+        "rank": "II"
+    },
+    {
+        "gameName": "폐관수련 아리",
+        "tagLine": "mid",
+        "region": "kr",
+        "puuid": "yEPNELSft04yrfw33YyFBCPKrbnNDJ-Gz0xuhhl1L0t5wES21eB7djUaGi9a-E6BWwhTWxoywbcDlA",
+        "tier": "PLATINUM",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Rin",
+        "tagLine": "きつね",
+        "region": "tr1",
+        "puuid": "vd9o4z95W9TXB7lWuRbbH5vuz5ijt7iqaFKGomdHTzeFMKcoVnKjkqdENOSxCWkLubW7l49CJGyn8A",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "매혹 쓰는 에비츄",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "sdIeavWx2S0ZuFYdgoRolTtMXxys2SwNooSxwJR03zKqQl_CY0R7zzArqUH1pFKAXv8q82ZzUzKO1Q",
+        "tier": "GOLD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "夏姒沁婕",
+        "tagLine": "0901",
+        "region": "tw2",
+        "puuid": "BqKxnMeqNFOjaf6WHnhMtMBpyT7KAEEdViHywvnwQzvBvE4zMoKfGGUcpnxWU5iG0ZuE96gQ_rmjTg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "ahri de lich",
+        "tagLine": "8747",
+        "region": "br1",
+        "puuid": "umQiOzfw-AGbgc-TtB1hfwKBeYmoK4LvU0MKGGfLDWpVl7-99cD8_zT-mxEWspFQGSWfakaL2toDfQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "FinezyjnyPawcio",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "_X-7fZZkBBrmUp85RsOFOO6LmcTElWw36ZHwK94k_aosxjOEhMWXV90IU8-Z8WjO6_kN_neSKgdrLw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Ahri Senpai",
+        "tagLine": "Ahri",
+        "region": "na1",
+        "puuid": "QGxw-t9nRvI5GnC240XCeINkpYuBpWYn1wXS0z2uCsij8qSHkTwU2ivCiP8oYaC2EpF0V9Do3Kvu8g",
+        "tier": "DIAMOND",
+        "rank": "IV"
+    },
+    {
+        "gameName": "채팅없이게임만함",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "unKNnSpS_bQe3Zq7zhJ5O-UHHErz-E8uj8lXZosz7EeTHqWWY9lDeLR8_Qy8sMX1ca_6N5cyDvUz4w",
+        "tier": "PLATINUM",
+        "rank": "I"
+    },
+    {
+        "gameName": "Bach In A Minuet",
+        "tagLine": "Ahri",
+        "region": "na1",
+        "puuid": "EjVDSFx2pcfGF76COY67Te4SWwsNirrsaFQoEK5UBOMezuGNtcquC7VeMawLsgmRhQXOlIn0VxRCJA",
+        "tier": "PLATINUM",
+        "rank": "IV"
+    },
+    {
+        "gameName": "FoxAhri",
+        "tagLine": "Charm",
+        "region": "ru",
+        "puuid": "O-MotsAw-Ng9v6cC2jdoWhOdAFrkd2-jiazIFTvB7RyMkIJ__NS24M4gsju7go6UDisUBZX8fNeaNg",
+        "tier": "EMERALD",
+        "rank": "II"
+    },
+    {
+        "gameName": "Kruel01",
+        "tagLine": "0001",
+        "region": "br1",
+        "puuid": "0MQ2KyVY3vVWsLFox7erosBwWbJ7zxu0GPXdSB9ndwy2_o3xY-0uZNWIoLxdB9UIjBMDPezLjj2ArA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "笹 木",
+        "tagLine": "JP1",
+        "region": "jp1",
+        "puuid": "5KFU3ZMkXo85SCtvX9h7umQUHwyjhCfb8mifNwLtf0G0a4sZ3YvuX4oQ5ooixjDP8OEYIukZY2LlMQ",
+        "tier": "MASTER",
+        "rank": "I"
+    },
+    {
+        "gameName": "alop55555",
+        "tagLine": "LAS",
+        "region": "la1",
+        "puuid": "fbheD2wQp5sYLpZbe2AntSKmLc5D1tAM14H4jSyh00iabRekfjWOmvHM95JGEBIkA-vwZqbuikSWkQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "A Charming Ahri",
+        "tagLine": "Ahri",
+        "region": "na1",
+        "puuid": "g39aFg2Pb7C4IEEvoELV0WWspY4miI3Ta-ItxNb_Vov53w0zgAijx4a8vvwsYgcgleOQaO5Roi7Vbw",
+        "tier": "DIAMOND",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Love Katerina",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "gtm5-Wce7Ck5vRimSV9cmEXLl1oQ98CAtB1gOCzZmXRevfKBSXMetTXpCn6pbcKS_H-uSrkTdhACJA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "LightningBaron1",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "Vi2lnFQB0NrbwDmce8CZJRzbwlQcmzJpi4gN_q9F8SgXFgWr-t8ZhsvZWZvEQLSeaEa912do-lNW4Q",
+        "tier": "IRON",
+        "rank": "I"
+    },
+    {
+        "gameName": "WeAreWorthless",
+        "tagLine": "Ahri",
+        "region": "na1",
+        "puuid": "TixeYPNT7NSZMHQTZmIcL1xbf-JznnbNokQf1BqoTffAOUbHPLLEMX4EhDJA4BMXMCTeHsFqbc8GYA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "LegitKorea",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "zNzekXmCOZT4Ydv5zPRNl4BfW3cmOGLflFJbGNcYdHipEfbIBuvTIPjmfRgqbpEuJf7AoFS2Dnx5sg",
+        "tier": "DIAMOND",
+        "rank": "I"
+    },
+    {
+        "gameName": "Ahrìgatou",
+        "tagLine": "Ahri",
+        "region": "euw1",
+        "puuid": "k_AtznjiprRmI0LUefA6LB7UsNeij029xWHthGfhToQfOwxdhKSJteeBjIJyMv81CSBH5YgEFuXVSQ",
+        "tier": "GOLD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Henrik7171",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "I8g5Nqk15Mv5PQnTk48gQwzClfeDoR-G0RfChEYtdpSlzHRczlvsoBWrwkB0AmIoMoo_lZ6JwUqfkA",
+        "tier": "SILVER",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Ryuk DeathGod",
+        "tagLine": "Ahri",
+        "region": "euw1",
+        "puuid": "5nVX4GEhnX6LUzAS2XZtr3pMLtu3ASsNWcoGh6sPpE5G4pMQ15iqHCZhG5JPCcviVH0hx-3JaZZIHg",
+        "tier": "DIAMOND",
+        "rank": "IV"
+    },
+    {
+        "gameName": "02ZeroTwo",
+        "tagLine": "EUW12",
+        "region": "euw1",
+        "puuid": "B7BbnBdfO2Td59I3pW4eYnUcUbjnLPbANu1gTS_0_fIDgkf_wvQMhh5GXvp5Hs-dUP-LxIWYMaqQ8Q",
+        "tier": "SILVER",
+        "rank": "III"
+    },
+    {
+        "gameName": "Dydda",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "bMat-0GQWrFKYPBXJc65VjM_6XmknCWRoO_Eyy0Uv1y9C5a0_hpQs5s8dYIWAIHO82QnMUy_j2mc7g",
+        "tier": "EMERALD",
+        "rank": "III"
+    }
+]

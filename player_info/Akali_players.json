@@ -1,0 +1,322 @@
+[
+    {
+        "gameName": "NikNakzZ",
+        "tagLine": "AKALI",
+        "region": "euw1",
+        "puuid": "M1n8aVNMT0HNnXBn4njlEJ0NUJd8ljpk3LZLBlQ8ZoWsr56FAsmNlnjf1hJ3-ogkP9DooKZbCNSnWg",
+        "tier": "EMERALD",
+        "rank": "III"
+    },
+    {
+        "gameName": "nerusondesu",
+        "tagLine": "LAN",
+        "region": "la1",
+        "puuid": "bU-vmpMheiL2muwHPISI_A46jQMOIEhwIZEIQX5VRCP5Fpj5ImpnhCT7NviyytkbVnLh4H2gXt0TiQ",
+        "tier": "DIAMOND",
+        "rank": "I"
+    },
+    {
+        "gameName": "니오더원",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "4HEObRsoVn51wdODLgj4AqnSaZZp0XPkK-poWby2quTXtKdyZc1aR4X-x0Y1JxZ9c47zVYkznJHrHw",
+        "tier": "IRON",
+        "rank": "I"
+    },
+    {
+        "gameName": "Degenerate Akali",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "CAjajrhUmRSaThClEpRqcNqB-tJYduDb_pEse0xy1de47dLTiY4NUjF7AcKmnjwaiPKuiKoAayFm3A",
+        "tier": "EMERALD",
+        "rank": "II"
+    },
+    {
+        "gameName": "WardAkali",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "_kS2bKuWth-i2gPdQgekn9_K-Ku6CZd7fKb9BeBUvKA8MdKArUSAJeTiB2YLcoKRIgj0dk8lfa2Hkw",
+        "tier": "GRANDMASTER",
+        "rank": "I"
+    },
+    {
+        "gameName": "Usagimimi",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "_AMKp56yF2vizMYokJp79WwMqyXHydtotrmT_s7aZF_-NWxTCUCX9g0k9-FyZrRnteU2lcJ826pGuQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Deadly Guns MoH ",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "LQ-jqzREg3Mt9Xra-whrkqJj1fvt1TDDapat29eT1tIinzRdDQ34AIZp3rOtGZ6CYwvRterGDUQDeA",
+        "tier": "GOLD",
+        "rank": "I"
+    },
+    {
+        "gameName": "용이 되지  못한 뱀",
+        "tagLine": "9999",
+        "region": "kr",
+        "puuid": "EtJq59XJYyI-jUnu-jL5g4UABzfjbUY0QJeXbtR-6g6qQCC5egxfVK8u-VzRmWo0zx7mpdpacSkxhg",
+        "tier": "MASTER",
+        "rank": "I"
+    },
+    {
+        "gameName": "터 치",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "xVBGViWOxhQrmgox09MYYFCYWA-ygMyRrZBXn9T5P8_5UWq9zQv31ErgREBjGmG6MzP_jDQ3PoDdPg",
+        "tier": "EMERALD",
+        "rank": "I"
+    },
+    {
+        "gameName": "Mysticpiano",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "se0T1Tf_rYuPEE5nQ0eMZCl6QkA-bdncyTom8wtCCAJZNCZQEsW87r4Tv5xs94ymEmAHz4GAMHUF7w",
+        "tier": "PLATINUM",
+        "rank": "II"
+    },
+    {
+        "gameName": "일반겜",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "-WAX8s76jIGcwlz_Nsp1k_1CvhFeJo6kdlqb3eiWDEySPvXgLQl7eOEzgZCvYCv0C5OwzFfpuXODNQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "The Akali",
+        "tagLine": "Akali",
+        "region": "vn2",
+        "puuid": "9raj8mt29XLDDZYc3ePf7ozrqxwqqcPqd8r5RJtkyS-E9UfJrojtRH-XT12kPNYFznxKOS61ObplUw",
+        "tier": "PLATINUM",
+        "rank": "II"
+    },
+    {
+        "gameName": "Regis",
+        "tagLine": "LAN",
+        "region": "la1",
+        "puuid": "Kzwj9yD8QErZXHiUBjoaysw-gm1Psn_NdX9adSvHqoctsFsQs5s_uImVLJqJqRernaOw9PN_S585Vg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Kunoichi",
+        "tagLine": "O口O",
+        "region": "tw2",
+        "puuid": "FOFvKrzvy9VN_NbT-_fAWVrnNJ5ghyFGcY0yJy9y8Uhl8QXWvYngL-Qn3sIitYRaF4Fn5MytVLtrTA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "하니비니",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "kv1pnR5-u0a_78BWF39mI-vLnJpBA8CT08BbRR87-vNEPH36UfswzslFN4erSFt7LTOilwCZcnDi5g",
+        "tier": "EMERALD",
+        "rank": "II"
+    },
+    {
+        "gameName": "çhắç dø ñghèø",
+        "tagLine": "akali",
+        "region": "vn2",
+        "puuid": "ekka8f9Py6_5c1WhzgBWscn4RYk_5oH_-4zu0D7rGeEQae_p3Yd2EsU8tKJnE_9PGxcED7_feYO31A",
+        "tier": "BRONZE",
+        "rank": "IV"
+    },
+    {
+        "gameName": "SIZU",
+        "tagLine": "RU1",
+        "region": "ru",
+        "puuid": "8gTc4wQ6dF0GzKshulPDw-_W73_6Y5M5QoKINbMKJgP4FJr93xiB90tZkY8Dqb4xASnvjuAsGIR-mw",
+        "tier": "DIAMOND",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Grasi",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "dY44OhqR9BwYfL9q44SxnlR4I1CI5OQFaFXCe5Wqtz3DmYyMdm-KjmTJu72Vux2Y1LCNs4XDCCiGng",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "저주받은계정",
+        "tagLine": "운이없다",
+        "region": "kr",
+        "puuid": "_fOJDWMigRC753Zr2uc_ho5QOAbokxaYPrI9GhKn0nCVKQcgQBajvJkIcvVXuoIzeA_8DycYd2jfKQ",
+        "tier": "DIAMOND",
+        "rank": "IV"
+    },
+    {
+        "gameName": "NH3",
+        "tagLine": "LAN",
+        "region": "la1",
+        "puuid": "lJvwTeUaF1h28cQWWufA359nht1H1EEAmfFIvPFTDp7d0pVutxMh2O3Sr2Xdr1W2_Xre3rfctRJm4g",
+        "tier": "PLATINUM",
+        "rank": "IV"
+    },
+    {
+        "gameName": "쇼가야키",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "2-bjLWzBc-aDAX3puBNt6JmFwODCwVmQ1H-774jzS8Ksfs9OgUXQe-VH8DLyHuIaAruL_KmvCYizWg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "alazia",
+        "tagLine": "akali",
+        "region": "br1",
+        "puuid": "W3aAcLuaStKL6Gx8jzdv5DpMiMbDtkwaZrhrMtESK5fA24QkyKiPfGmRpRmBYx5uBvm2FgX3RNumzw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Conker164",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "4QZwxSMMeCWEMSNVfrUZe29BPLPuKnfBz54B3f6WFz_TImHrMyvBrPCffkNg67xxK04aKbIyChcccQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Canadian ODST 2",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "eiq3fPRJO4e5K1ccVFiuSXdJIMGCMS7m7K7Ir4ynvw8gh-ftAQaQP-2qcvV-_pAyMtRbbRiRQXcY1Q",
+        "tier": "PLATINUM",
+        "rank": "III"
+    },
+    {
+        "gameName": "Akali Vengeance",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "37QGq4jo65FQxFEbjfSzfYwWCa4Z3N2TtVUDRzp0maEqBEvzRx0BZzjBP97yiKZYDjDZ4GURodTsqQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "BlightLiliesXIII",
+        "tagLine": "617",
+        "region": "euw1",
+        "puuid": "oR70Aw-_trfaUwLArqBDTeWCShRsbMImXfDURVuh37Krfn3bqH7rDqpbPD05YLr0meT_2NnPHmKJlw",
+        "tier": "PLATINUM",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Burst Link",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "bRBVb__44_7mj6V7Y7fhE8bGfZfpEGxVnPzXfbVDlaAswAyoa5FD3eSg5DRIpQ_iQYC4WXyQt7aHnw",
+        "tier": "GOLD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "3RBo0oSH",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "TJZH-7NCz17KBC-OHG3HGiAHufzvSvXwwlhhBRQTjEmcYgZDrqPeV3ru-Kr1UcYVsJma0_cnXYHonA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "ノーザンダンサー",
+        "tagLine": "JP1",
+        "region": "jp1",
+        "puuid": "BOGmX4ecte2k6a8gZ5N2kPSjJ61twHdiIYqEL--VhF6zgDyitO_c_EoFPCtdK1zLX-2YruJoH6dVww",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Dayner",
+        "tagLine": "Akali",
+        "region": "oc1",
+        "puuid": "zxvQd5h3wSVmxjEjjrzILLbkaOF1lQejmcFfWfQ1un7KKUAoIC1lF02sb3Y5THLgPIj0RclNS_kdSA",
+        "tier": "GRANDMASTER",
+        "rank": "I"
+    },
+    {
+        "gameName": "Tethi",
+        "tagLine": "Akali",
+        "region": "br1",
+        "puuid": "y5VUQdt2H41T7XDSA1ADNsI5Rwd5mmVRepoqIGLj8oSA0_wB2TgyU_4Nuo8nhoFE3yHx6YPeVo6ixA",
+        "tier": "DIAMOND",
+        "rank": "II"
+    },
+    {
+        "gameName": "Stinger Akali",
+        "tagLine": "Akali",
+        "region": "eun1",
+        "puuid": "HxkceaByjP2PRC1-o3HNNwF__X64DxpNEpp4DN_f3aRwlSRwB1NBQ7mnPeSn001ONHBtgriOxqFyUg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "MARSOC27",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "Td45uof8JvcdjeD_t8zF3CSlEaTJV4oU2H9X6_e5iOXB9QA6ubkCc1i2LRP2VvsDuYZvBwn6NGEhLQ",
+        "tier": "PLATINUM",
+        "rank": "IV"
+    },
+    {
+        "gameName": "valcambi swisse",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "Gq0rZs6WfXPwCOg5W2x8_NmnN0QFxhQtAGqrqM9ANgMFolDc8PcQuLCukE6KoKdaRE5-kZpEQU3bnQ",
+        "tier": "GOLD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Yokah",
+        "tagLine": "00001",
+        "region": "euw1",
+        "puuid": "fNxchAyGYstz5mEYMIG-Q3GN713NLWFV9nkTmvqjOm4gSuiYBn_BhrdAWeT9ThOBhFx3VhnFC_6Ivw",
+        "tier": "GRANDMASTER",
+        "rank": "I"
+    },
+    {
+        "gameName": "AGAIN Noob tema",
+        "tagLine": "EUNE",
+        "region": "eun1",
+        "puuid": "rEUTRRofSQO2fiOI1Hj5KAqHl27LtUtxsvrGNOce5f-95-WCCmQ9o6u1OZtK6MhEc4VLLPIafCFRwA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Jibbaz",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "zmPacsQ5NlmFAkLxqf3pRRem9p05EqO40SSWpioHZzokI-Z6iRVSs3XrU61iN1bLc4yO1m1a7EiQRg",
+        "tier": "PLATINUM",
+        "rank": "IV"
+    },
+    {
+        "gameName": "TIÃO A CAPIVARA",
+        "tagLine": "br1",
+        "region": "br1",
+        "puuid": "_WIJ1shmfeRusefv4bj4yQK8l1DfCZg3OxHC9uyhO3jee0mLqnLJZUv0xPG-_r-bLSfWCrhqD3AjBA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "MrThatGuy",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "pd5WgqUZQsFsV0NW5DV6RkVIX4q42I6fnNeaDs4qGUd7ixk0uf0BS2YImTpsclSzVO_hcoUCR0opGA",
+        "tier": "DIAMOND",
+        "rank": "IV"
+    },
+    {
+        "gameName": "1957807del",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "BdcKry_BJdJ0Qm4fQB5j1l37kvrp6EnrFYk5zEDw0aqHZ2HXw8gk4ZHuHy02WlPhdn6Ak83ecaBZLA",
+        "tier": null,
+        "rank": null
+    }
+]
