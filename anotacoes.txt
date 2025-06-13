@@ -1,0 +1,9 @@
+
+
+- Atribuir score baseado nos status
+    - Comparar só com oponente de lane, ou
+    - Comparar com todos os jogadores
+
+- Outras possibilidades de treinamento
+    - Prever vencedor a partir de um timestamp específico
+

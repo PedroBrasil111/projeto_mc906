@@ -7,7 +7,7 @@ from api import make_request
 
 RANKED_QUEUES = ["RANKED_SOLO_5x5", "RANKED_FLEX_SR"]
 RANKS = ["IRON", "BRONZE", "SILVER", "GOLD", "PLATINUM", "DIAMOND", "MASTER", "GRANDMASTER", "CHALLENGER"]
-REGION_MAPPING = {"BR": ["br1"], "NA": ["na1"], "OCE": ["oc1"], "EUNE": ["eun1"], "EUW": ["euw1"], "JP": ["jp1"], "KR": ["kr"], "LAN": ["la1", "la2"], "LAS": ["la1", "la2"], "RU": ["ru"], "TR": ["tr1"], "PH": ["ph2"], "TW": ["tw2"], "SG": ["sg2"], "VN": ["vn2"], "MENA": ["me1"],}
+REGION_MAPPING = {"BR": ["br1"], "NA": ["na1"], "OCE": ["oc1"], "EUNE": ["eun1"], "EUW": ["euw1"], "JP": ["jp1"], "KR": ["kr"], "LAN": ["la1", "la2"], "LAS": ["la1", "la2"], "RU": ["ru"], "TR": ["tr1"], "PH": ["ph2"], "TW": ["tw2"], "SG": ["sg2"], "VN": ["vn2"], "MENA": ["me1"], "TH": ["oc1"], "SEA": ["oc1", "sg2", "tw2", "vn2"]}
 
 def get_champion_html(champion_id, name):
     filename = f"champions_html/{name}.html"
