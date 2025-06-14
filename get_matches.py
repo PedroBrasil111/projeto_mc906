@@ -86,7 +86,6 @@ def main():
         print(f"\n\nplayer {str(i)}")
         macro_region = MACRO_REGION[player['region']]
         match_ids = get_match_ids(player['puuid'], macro_region, count=100)
-        print(match_ids)
         print(f"Found {len(match_ids)} matches for puuid {player['puuid']} in region {player['region']}. Fetching details...")
         valid = 0
         new_matches = 0
