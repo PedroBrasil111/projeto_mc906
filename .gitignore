@@ -4,7 +4,6 @@ champions_html/*
 items/
 matches/
 **/__pycache__/
-player_info/*
 **/champions.json
 timelines/*
 features/*
