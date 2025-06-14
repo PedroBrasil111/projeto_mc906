@@ -1,0 +1,478 @@
+[
+    {
+        "region": "kr1",
+        "puuid": "7_F53Cyxv6J3XiECDiP2hsZLCHCoiSMrmm-o1aVeR8Wq0kOhxYEuY4R4Tn8mm0-Ujfh5E_3oFP8O3A"
+    },
+    {
+        "gameName": "Gossamer",
+        "tagLine": "DDT",
+        "region": "na1",
+        "puuid": "ko9CnpT8gy7IbsyuI1PjJ52Zn3gzX_snahYqzSHxswNulHC5MO4MB2_HJrb2keVeNMBNFYcjvnHPJw",
+        "tier": "IRON",
+        "rank": "I"
+    },
+    {
+        "gameName": "Shaman Magnus",
+        "tagLine": "KaiSa",
+        "region": "eun1",
+        "puuid": "-NXJTYltYR0q0OQO1uKY3cITj76h1A9lUu6kASIz91o8k6boB9KtbW8glDQW_RuTvWo-_loguuXsCA",
+        "tier": "MASTER",
+        "rank": "I"
+    },
+    {
+        "gameName": "Champ Johnson",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "EqG7NWOBvSrOos5ZPnwUGWWsryFTKbe6uMqMOQYC1-wnN0ILeDRhQr-Xo4XLBgLgGVcDeJi4t9_Czg",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "hugoansi",
+        "tagLine": "0227",
+        "region": "br1",
+        "puuid": "A6DunzZtfz9fm0jQmmOLLiAnb0KdxF3OhVfcTAUQsOxz5giOrzpLDnuQpIncCk3CqKuf0vAtzQXTFw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "PARAN0IAQUE",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "KXCvHq8Rfav6O7VlMCJaEB9wkMG3wg0C6t1_JBEjAevISPjMPETeYTKeY3yzUpj1bz1Mhp5FlznW3g",
+        "tier": "DIAMOND",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Stawinson",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "lBOkfYCJLl4GbdsFeEhHgZm_AwC31QC6v-FGgd7U87b4wID2fVIqKIwpi5jhySg0HdUR-JlkUhnSlA",
+        "tier": "DIAMOND",
+        "rank": "III"
+    },
+    {
+        "gameName": "Robusti",
+        "tagLine": "br1",
+        "region": "br1",
+        "puuid": "MUKGwqhXnS5G-yPhyTNp1HNkLrvfQ8wFcQYl2Cx6vB3QDdr-NQf6KM2S8xLIwe3bfKgkVMBTbOugXQ",
+        "tier": "PLATINUM",
+        "rank": "I"
+    },
+    {
+        "gameName": "BetterCall Kaisa",
+        "tagLine": "BR7",
+        "region": "br1",
+        "puuid": "hUfcKGLFv0nk_kauaDNYINMOsZieOaHb4bljNdASbSpcxNlWDeIOkJVyiS7kPSLdHUY7T0MMAcNv2g",
+        "tier": "GOLD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "MistaFlow1203",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "8NLiYYD5WWGayHxKVk1zZcRQHUautQhXXCchuKgQ_CWSCka9FBmZWDOA8Aaf5qtv59niaJ9O5bJOig",
+        "tier": "BRONZE",
+        "rank": "III"
+    },
+    {
+        "gameName": "xpxfreakbTk12",
+        "tagLine": "xpx",
+        "region": "euw1",
+        "puuid": "CLdkyC-BLW6i_LW5tbBTv4kB3YUadiFvqfVP3-bggbIHuh2_0XJvQT6FSMbkKQcBrii85Kj3XXU2zg",
+        "tier": "GOLD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "ElDavidLeo",
+        "tagLine": "Chaos",
+        "region": "la1",
+        "puuid": "I3Zjlfjn63a1yhNwElV-mHtLDMPQAGbBrEzKTA7pyScl1D2wTAmcMbF2I-cyxXcu4Nn8-wrz-D2SkQ",
+        "tier": "DIAMOND",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Kaisa Lendária",
+        "tagLine": "BR1",
+        "region": "br1",
+        "puuid": "TO49FvNUh6K_r7q4ijjMsgHy9SkpOnEzhrBo0XSaqXE8W3uFAvjdv01Cten0sEM00_iJjS0zAQtHdw",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "RCMDM",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "Uk13skhkz2VeXfxYegxDpnke0kUWu5XolSz0ROBJdfnhlGZQtBzCKfmPJi01KGkDluI2G9uF-IURxA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "Vrit",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "flpaO77cHEfYea22qelSGLhtp79siI6ezfQOEbnTcxammaSoMcmUP_2X9mw9Eh4V6b7ZUXVrA5wIrQ",
+        "tier": "GOLD",
+        "rank": "II"
+    },
+    {
+        "gameName": "DWG Ghost",
+        "tagLine": "KOR",
+        "region": "na1",
+        "puuid": "prBK4-GlpRvIuxGnXzXvknaI59Kd_SvO8bLudhhvGJkiw18eQZqioLhr5SYjXawVTg38nmn8OCaf1g",
+        "tier": "PLATINUM",
+        "rank": "III"
+    },
+    {
+        "gameName": "Agsalor",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "swRPCr-uKW3qlseC6Indq8IFGszYYrUlpkMRPF_N1oDhkZOySKtBsO1spbDheayJA5dqnqZPP2vcww",
+        "tier": "PLATINUM",
+        "rank": "I"
+    },
+    {
+        "gameName": "Hisashii",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "inCQzB7S4ra5onY-SuD1VjV0EOIgL4SN1d0Ct7yMFoMuFu8zOTYH38oiqSJmS4JPdBsy0eSB_XXuOQ",
+        "tier": "GOLD",
+        "rank": "III"
+    },
+    {
+        "gameName": "카이사정글원챔",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "F2kxXAFBmWsnLLI621o-3EeQFs4uXaxZGrbm8f4rKZWdaq-oiQY7HoV0XiRqFg-f0mQd5bfClw4oDA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "JsTheWolf",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "7nkzepDkn2QKDLdiLcZVjTg1SGDp_P-hhch_yJxa6LlMCFjbG2BTc0amBVQ7PkFk5AXRFwgLqXx4ig",
+        "tier": "SILVER",
+        "rank": "IV"
+    },
+    {
+        "gameName": "카이사중독",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "p3H6LEqc5wrurPMg-xBrQhXLbzKntMPS6ePFPkTR6FjbvTIDD-RpWXCHkpU94CbUGU2L11GKSo-PeA",
+        "tier": "SILVER",
+        "rank": "III"
+    },
+    {
+        "gameName": "njz",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "jOMCYfWhwGHakxusa2kTAqO5MtKflEfD8ZInHkfC-gfWZNzdKBgt9XN6HqRZHxJaIyv0rCBfKvG-NQ",
+        "tier": "DIAMOND",
+        "rank": "I"
+    },
+    {
+        "gameName": "디질꺼같나",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "EqiN_8_xMRMRYPwDpSfOUeoz_Kl04BTXseBZpJfGU2oexSSTk1mWbIFUnnGOH02ULNBauMUhoRNI2g",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "ADC",
+        "tagLine": "LAN",
+        "region": "la1",
+        "puuid": "J8bCI52X98EN-u2YLYKNUtEmEsugypQayzssJuklajuNtqRXbrWxN_EYZhtXRUlNJrYMuXV7iAdPnQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "davnoa",
+        "tagLine": "LAN",
+        "region": "la1",
+        "puuid": "SmEDWrjZD7-oWg4WCAYnX2ZhXCvf38EnAGEq_uE4AhSRy_NL3APgTpz5VgO-gWKszN9DYAYPkK-FUw",
+        "tier": "GOLD",
+        "rank": "III"
+    },
+    {
+        "gameName": "luxtracon",
+        "tagLine": "0707",
+        "region": "euw1",
+        "puuid": "CMRGCIKKQv8oT724WVJSt0mcjer5ovE38CrQOkiTgOJf8FNsB8cM5C1meyeeawff1zkvNVw3RYO8Lw",
+        "tier": "SILVER",
+        "rank": "III"
+    },
+    {
+        "gameName": "VoidyPeach",
+        "tagLine": "voidy",
+        "region": "euw1",
+        "puuid": "icp5p8RPptlQuRuJDRgZGshfMgA_AD5PiVZYObmy--FpwP2tk0QoVayG-ilv_XDLW2ZKjaEySukrhg",
+        "tier": "PLATINUM",
+        "rank": "III"
+    },
+    {
+        "gameName": "NotKaisa",
+        "tagLine": "404",
+        "region": "euw1",
+        "puuid": "8-lNyNXgaG1Kh1jMq4R1yPe8938A08p1tf_GEODdnpu1RvIlWFeICZcIwkgI-CjMeaQgY9X5zkbfEw",
+        "tier": "EMERALD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Alexss",
+        "tagLine": "040",
+        "region": "na1",
+        "puuid": "Au0sfk3PnuMMGH6ltsuqU-hv4HlIxAEyjPP7lTtJVUnYahN0E1I-7eGUPliS6Wfk4CH2mIkmGm_cJw",
+        "tier": "DIAMOND",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Vinciors",
+        "tagLine": "ADC",
+        "region": "euw1",
+        "puuid": "hoZrp3F_Iftmpm6CfkU_3oLTf309Zhyz3PR_WPIlK_Su2JrMymDn65Q8pYzyUipNULhm-DlB6YIG7g",
+        "tier": "EMERALD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Maisa",
+        "tagLine": "KAISA",
+        "region": "euw1",
+        "puuid": "CPOME_n5bBJucIpkJ7KzSRNu5iJBWM93XcJmUyL36QZOvWzmyDjVqyrhRg9KQs03k3-HhpPlMZ1Qow",
+        "tier": "EMERALD",
+        "rank": "II"
+    },
+    {
+        "gameName": "PÔP",
+        "tagLine": "NA1",
+        "region": "na1",
+        "puuid": "F3H4tWIWKAZNTTOyo-6-xFLK0hjUUsLYS2FgMeXn9uTMLBS6CwMn_eNYiFw3oXM-FjGyE1vdS-zykA",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "MasterKill287",
+        "tagLine": "LAN",
+        "region": "la1",
+        "puuid": "333B0KA4jO8EluFUfS2ONv7a9voic4ud0nMT9CPfPMd8ZYqlr_fP5u73XMfCh6Fvq8HKnF16AD9oXw",
+        "tier": "GOLD",
+        "rank": "IV"
+    },
+    {
+        "gameName": "Kai",
+        "tagLine": "VII",
+        "region": "la1",
+        "puuid": "bpMmNNQH973QB1TrnNh63tjEzVhO8mL-9Zrttzq3k_vjs4qqrxVMAaOe_ivwDAjW03H0lT6-xTQBGQ",
+        "tier": null,
+        "rank": null
+    },
+    {
+        "gameName": "DarKaisa",
+        "tagLine": "br1",
+        "region": "br1",
+        "puuid": "eU2cvKn7aOnXp7c2DcHvjuzDvw9iOdntIoMsLTeki0SnGga_2RKr1wQSNQv-KiBYxwBGli_TsI2Ofw",
+        "tier": "GOLD",
+        "rank": "I"
+    },
+    {
+        "gameName": "dua lipa ad acc",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "D9ErkwoPwjR6mXg-uv_VHtd94sgpcSDy3nQpLk0B8LrbY6ax95wgeyD2JnXDF7MyGNYF-rXjVzBJwA",
+        "tier": "DIAMOND",
+        "rank": "II"
+    },
+    {
+        "gameName": "Stash",
+        "tagLine": "Kaisa",
+        "region": "euw1",
+        "puuid": "pvy7wobWcVnQN71RQqYpaY7wTsA3HhPqgySwXjXFZaT5kPUZBpadJ8JhEE8Lbp9EHUHdStxdcM2kuw",
+        "tier": "MASTER",
+        "rank": "I"
+    },
+    {
+        "gameName": "DeviLs0n",
+        "tagLine": "EUW",
+        "region": "euw1",
+        "puuid": "601AwmcW78i-jRGFQI5SRajlD12C8jpUYAFh16m5GbVKrImBBB_Hho4by-FM6bbFDljTIXvixDm4dg",
+        "tier": "PLATINUM",
+        "rank": "III"
+    },
+    {
+        "gameName": "GARAKKING",
+        "tagLine": "KR1",
+        "region": "kr",
+        "puuid": "sbbW13I4oY0_UdiasfrieM1sWoq0CK3rWPwzRWdLZ1L1-WtLEBWTt_WRpVueEvFZ8kkj7HBbgD1Bkw",
+        "tier": "DIAMOND",
+        "rank": "II"
+    },
+    {
+        "region": "euw1",
+        "puuid": "WwhQ0vbq3peeY5oFlm--DRhEGJq3eu1dH0uOOmfL_V1Dv1X6uGzCWIp6shdnVtea0PPc7dLmzbPGgA"
+    },
+    {
+        "region": "na1",
+        "puuid": "Qj7AsyDeVug5EAtaEMNIlabLkZzgiR23ug2gLpd44BkNJ2ASNIRL-75pcHGGS7xiuicfieFzzmqAHw"
+    },
+    {
+        "region": "br1",
+        "puuid": "P19tGuq3YeD5WQRaiZ1Ym_MVQy68Qfb_asP50Qj917Cvwbf743wEDESxDY2wMht3QboaVHLdUnAczw"
+    },
+    {
+        "region": "kr1",
+        "puuid": "Omd4mBrx_P31Fux5Bn6YnOua1tFxGLC3CO2Ja-laKnWkVi8Sgm869ZoBWHjVe5dX8x7RDqVXgqQWPA"
+    },
+    {
+        "region": "la2",
+        "puuid": "w-6fUjCOiA-wc2O3_GgWeCG_9h-Zb_bW0BcSuxWV8QbopWlXuj94wrcMmhdtzZfUbLL3ZjgNakdx7g"
+    },
+    {
+        "region": "euw1",
+        "puuid": "UZjCkII2oFCEUexlb8AgW9hPdN19kGzvOechlFAwOtq9nIRlHf9iSRWQ6EYS-n1i7S8Mxt4QKEhzkw"
+    },
+    {
+        "region": "kr1",
+        "puuid": "7jQglzCyhvoKOQdHWbYLCM2YxGj0dIWOd8GlydjL4koknr4D-Y6tcAPlPXVWRcFB7bMloCyJwKHnig"
+    },
+    {
+        "region": "na1",
+        "puuid": "43X9_MMDVkwM5vptnDF5PK7lYparfBIdCbfeMOmTvhR_04kTBKQoIESVl4uyc2V5rXi9DCaiRsLmYw"
+    },
+    {
+        "region": "eun1",
+        "puuid": "jK_QAuWuaXPCiFontIPjBqLLGl7oE16MdNS9k8RjHclxy5IYbzVqU72OxmHF5nOtNTvNjNdJ-ZvLjw"
+    },
+    {
+        "region": "kr1",
+        "puuid": "NgeGNTv_q2st4WZmdiUn_6Nf01T34ei6nNWYlpmWbuoVidkULk5yMTfv4tkEf_AKONHIvwbi2X-7KQ"
+    },
+    {
+        "region": "na1",
+        "puuid": "-vL33Fq-IAeIa_-YTCvDFbyT5yz1A2Kyfe7AJnTK4kAV8T7z8ztyyrO0zGazOeSTHNznbIAjxAsDCA"
+    },
+    {
+        "region": "eun1",
+        "puuid": "7EtU96OvYcoNDslfedTydLRou8sRjSSJVLcMSj4w4ocTjoDNV0Tncx6z6Z7XvQsRxkLYnpkSQzmgZg"
+    },
+    {
+        "region": "kr1",
+        "puuid": "CBvMKu0lWylhY_9_LYvm5SsU7rreb53GZG8Pn2j8tlsRhgNyidZkcoSSyGWOlP5MigBXK0VkNaQhlA"
+    },
+    {
+        "region": "kr1",
+        "puuid": "_op7lpC5Pobi7jL_a9Zvl4d6saxRRnaUnTSf3awYsJ4sXMd-4UwPBu2wda1xWdDTqUaV8RnO-lk5GA"
+    },
+    {
+        "region": "euw1",
+        "puuid": "Fd21vmMJYMVS_8TYx0zHvxKLx-uQ_lfu0rScSGO0oC_KT4sKyamGpfYKB455FCwqaxC5yC7HpHFzQw"
+    },
+    {
+        "region": "kr1",
+        "puuid": "Gnkt-gfchJReACKXm2kNzoMRiB7PKkwfuCYEJ-DQ9SdinyREBomgxxTraBPbr-jixyp9osqcomBXBg"
+    },
+    {
+        "region": "euw1",
+        "puuid": "Z_uR5zteoHOdf_xdaMOyXKgLuyEdm3Ei0ISW9AvO1GyCrEg9Z13fNkhKR4RYr59a1qjiQc8z-916fQ"
+    },
+    {
+        "region": "br1",
+        "puuid": "SMGnhZOqPen2PE8rqbSM9LJPBw-sVm59zjuiXZIX3dsZ5eSyErrOsadl5l883Mr2il2PKkTuEzt53g"
+    },
+    {
+        "region": "vn2",
+        "puuid": "25sQIKb6eBShKF8evAX3LXrwTsfGQWlI3879gT-tAQVMlEz1EAGMdrjemN9_03d8NjQxQykkS51KEg"
+    },
+    {
+        "region": "kr1",
+        "puuid": "RyKS2jzW77RI-L5kbLfu9SKH0HP3ESC5ZCTP5AwmYvr-7pHnvDxhNfGBCILVfZJkGJ5kw6JI2B0Kqw"
+    },
+    {
+        "region": "euw1",
+        "puuid": "xF6A1gzcvl4wEF9_d-JJ3PEcRijKhVLZ60XZmUEY0A-d4LZJaEuGttR_U6xn-kxuNiPPzQSZX0JiFA"
+    },
+    {
+        "region": "kr1",
+        "puuid": "MiS2D3I_-Qq7KzQRGN0-Hluktky_0NThtAsJ9zXjIoq5M-1nhN8hGUWLeu3XsKtGqhWjzTi2ShfgwA"
+    },
+    {
+        "region": "kr1",
+        "puuid": "GaDKDQW4aCsOWaMot-O4au3unaFQ-ZGwuuIwmYl-baPE8jcyL7XwREnQQXWtzlr8u-i-FyLrf8LEmA"
+    },
+    {
+        "region": "vn2",
+        "puuid": "HdVmGQWYkhhoA_N6PuKhbAIwpXe2-9ssK6fNKOcbjDTExPBz4wH_sE18YfoVOOeS8AOJjl6LAD9scQ"
+    },
+    {
+        "region": "vn2",
+        "puuid": "rNwWBwiJASTYinlkRRBRQKrJG6_lI0gkCCN7o6DZ_-O-wFvUu1gqzPNtGivXjHCV0AyadyI5Ih379w"
+    },
+    {
+        "region": "la2",
+        "puuid": "4TgUOOrE95xysyqzHozBbEY8OHQXKbDxVV_5Z30NN2KAyNVvNzNIuZ1XP5SfNj_BtwKTj6TJGlFbHQ"
+    },
+    {
+        "region": "vn2",
+        "puuid": "xQv3Ma8_aeKG2r_9ge3av1oPsHwlMYrFL-jycF_3WqlPnrddtKKPJ9nGWPxzvNzzTsHMe1hz5rbF0g"
+    },
+    {
+        "region": "vn2",
+        "puuid": "fWonvQEJ02X1sIvZEMsVx16rP6EZzp6tBHYH-59Dzx68Wa5148ENfAWKRSAL_jFSAj9Cvbzgj8if-Q"
+    },
+    {
+        "region": "br1",
+        "puuid": "cc7ptkCFYEfr4DqN_YS50ehOivdcf6mWxHCwLxPjmNPOnz-JF5jRbHDGe9aCC4W10NEY1lZWwff-OQ"
+    },
+    {
+        "region": "vn2",
+        "puuid": "liSJ-8iyidccYKHARAMyEHgotBD0dBcWpnrERMO5A0vHZjRzDqp9v63zABZV08afQKxbSempKA-MuQ"
+    },
+    {
+        "region": "ph2",
+        "puuid": "0FPsrNX9RKbMj4Oa4Om0lqdQjQoFh8nFhm0qFfW7EoyVBjsmdRk6qhpGMJmChVk_rV0yMRlmoXoyWA"
+    },
+    {
+        "region": "la1",
+        "puuid": "-20upKHnb8s9TLjktafK_fMnqVRS6zZ36u7n9p0eGXSJAjCKFyankNqbxBUh9xszV0wHVRyrDMioKw"
+    },
+    {
+        "region": "tw2",
+        "puuid": "PzyBqmsSyKOL6bUsdM94f_GiMyGM9-7ASm21V-JFC35S4czwuYMjWNClJgPbZOBUAbKCQBWUEgRRNg"
+    },
+    {
+        "region": "tr1",
+        "puuid": "ZwQ0y1_BgoW3I21PflwDBi5UHy8TqhCOze1hzT81alkyNg-Di6vipLCKOHQDFu8qFCBupmRYpao5Kw"
+    },
+    {
+        "region": "la2",
+        "puuid": "rVJ1-tXKRN7Py4vRBmWnWs9xemNtPJJWg0jl1TdMJIlsBicyp4YNfj5ZsxKqFrvXGsY7LUw7ruZ_mw"
+    },
+    {
+        "region": "ph2",
+        "puuid": "NaGkrSVn7Li9VAksArRmOJwrlqmj_KHTcV0AszR0x_pEIbejGBzGRpii36ROZs9taDjMaUegPU1Ylg"
+    },
+    {
+        "region": "eun1",
+        "puuid": "kCynD_X9-toi6mTM1Up5FI-Cu1XX37qTEewuC_q1RInysUlk4V_fhbxoyKcw6D8KTYxsj08Ieagx-Q"
+    },
+    {
+        "region": "kr1",
+        "puuid": "gaoz6KsHl0BX1tgWcyPtsrchdsGW32kxirCY0j02l37nSBdm4siN6_p55DAgxTQwIdZVYJFHh6WW0A"
+    },
+    {
+        "region": "euw1",
+        "puuid": "jV-UzU5o2ixlY4EUoV6AHQp9K9EA33HcPIvxBW6bKgilcXAEgRt60EHxzlkYznR8ZXzHSsvhtNLrxg"
+    },
+    {
+        "region": "la1",
+        "puuid": "L56ERKiaTODyzM_J7IiW62M4sP4PBaZG7tOQhUFaMccvG87cmsFsnFIMwP9lw0K6HY6ykMc8DTpbrg"
+    },
+    {
+        "region": "euw1",
+        "puuid": "-Zdk7rXeeOczPfR_r_fx1-rWOy_ZgMuYU3KnaccZaVhh0l3z-p7oI5rrW0lRVuGCp9dtwZmMeQb7yw"
+    },
+    {
+        "region": "eun1",
+        "puuid": "tOaWX6EWCcKJWGmIhCCq1mxKYs_xmgtMw3Zv_8xbrWET9hhYYq6VAei70-4_l6hklxdF28KLELTjWw"
+    }
+]

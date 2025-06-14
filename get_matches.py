@@ -7,7 +7,7 @@ from api import make_request
 The AMERICAS routing value serves NA, BR, LAN and LAS. The ASIA routing value serves KR and JP. The EUROPE routing value serves EUNE, EUW, ME1, TR and RU. The SEA routing value serves OCE, SG2, TW2 and VN2.
 """
 
-MACRO_REGION = {"br1": "americas", "na1": "americas", "euw1": "europe", "eun1": "europe", "kr": "asia", "jp1": "asia", "oc1": "americas", "la1": "americas", "la2": "americas", "ru": "europe", "tr1": "europe", "ph2": "asia", "tw2": "asia", "sg2": "asia", "vn2": "asia", "me1": "europe",}
+MACRO_REGION = {"br1": "americas", "na1": "americas", "euw1": "europe", "eun1": "europe", "kr": "asia", "kr1":"asia", "jp1": "asia", "oc1": "americas", "la1": "americas", "la2": "americas", "ru": "europe", "tr1": "europe", "ph2": "asia", "tw2": "asia", "sg2": "asia", "vn2": "asia", "me1": "europe",}
 
 def get_match_ids(puuid, region, count=20):
     url = f"https://{region}.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?type=ranked&count={count}" 
@@ -84,13 +84,17 @@ def main():
 
     player_info = load_json(f"player_info/{champion_name}_players.json")
     match_info = []
+    i = 0
     for player in player_info: # 5 APENAS PARA TESTE
+        print(f"\n\nplayer {str(i)}")
         macro_region = MACRO_REGION[player['region']]
         match_ids = get_match_ids(player['puuid'], macro_region, count=100)
         print(f"Found {len(match_ids)} matches for puuid {player['puuid']} in region {player['region']}. Fetching details...")
         valid = 0
+        new_matches = 0
         for id in match_ids:
             if os.path.exists(f"matches/{champion_name}/{id}_matches.json") and os.path.exists(f"timelines/{champion_name}/{id}_timeline.json"):
+                valid += 1
                 continue
             details = get_match_details(id, macro_region)
             if details and champion_in_match(details, champion_id):
@@ -99,6 +103,8 @@ def main():
                 #write_match(champion_name, details, timeline)
                 write_match(champion_name, details, None)
         print(f"Found {valid} valid matches for puuid {player['puuid']} in region {player['region']}.")
+        print(f"{str(new_matches)} were found and downloaded.")
+        i += 1
 
     print(f"{len(match_info)} match details for {champion_name} saved successfully.")
 
