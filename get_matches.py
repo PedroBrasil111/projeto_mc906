@@ -17,6 +17,8 @@ def get_match_ids(puuid, region, count=20):
     return response.json()
 
 def get_match_details(match_id, region):
+    if os.path.exists(f"matches/{match_id}_matches.json"):
+        return None
     url = f"https://{region}.api.riotgames.com/lol/match/v5/matches/{match_id}"
     response = make_request(url)
     if response.status_code != 200:
@@ -65,8 +67,9 @@ def write_match(champion, match_details, match_timeline):
     with open(match_file_path, 'w', encoding='utf-8') as file:
         json.dump(match_details, file, ensure_ascii=False, indent=4)
     
-    with open(timeline_file_path, 'w', encoding='utf-8') as file:
-        json.dump(match_timeline, file, ensure_ascii=False, indent=4)
+    if match_timeline:
+        with open(timeline_file_path, 'w', encoding='utf-8') as file:
+            json.dump(match_timeline, file, ensure_ascii=False, indent=4)
 
 def main():
     champion_name = "Kaisa"
@@ -91,9 +94,10 @@ def main():
                 continue
             details = get_match_details(id, macro_region)
             if details and champion_in_match(details, champion_id):
-                timeline = get_match_timeline(id, macro_region)
+                #timeline = get_match_timeline(id, macro_region)
                 valid += 1
-                write_match(champion_name, details, timeline)
+                #write_match(champion_name, details, timeline)
+                write_match(champion_name, details, None)
         print(f"Found {valid} valid matches for puuid {player['puuid']} in region {player['region']}.")
 
     print(f"{len(match_info)} match details for {champion_name} saved successfully.")
