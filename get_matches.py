@@ -73,8 +73,10 @@ def write_match(champion, match_details, match_timeline):
             json.dump(match_timeline, file, ensure_ascii=False, indent=4)
 
 def delete_files():
-    timelines = list(os.listdir(os.path.join("features", "timeline")))
-    postgames = list(os.listdir(os.path.join("features", "postgame")))
+    tl_path = os.path.join("features", "timeline")
+    pg_path = os.path.join("features", "postgame")
+    timelines = [os.path.join(tl_path, fn) for fn in list(os.listdir(tl_path))]
+    postgames = [os.path.join(pg_path, fn) for fn in list(os.listdir(pg_path))]
     for fn in timelines + postgames:
         os.remove(fn)
 
@@ -90,6 +92,7 @@ def main():
         print(f"Champion ID for {champion_name}: {champion_id}")
 
     checked = extract_features(f"matches/{champion_name}", f"timelines/{champion_name}")
+    delete_files()
 
     player_info = load_json(f"player_info/{champion_name}_players.json")
     match_info = []
