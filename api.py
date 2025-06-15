@@ -12,9 +12,17 @@ REQ_SINCE_BREAK = 0
 REQ_LIMIT = 100
 REQ_TIME_LIMIT = 120
 
+def safe_request(url, headers, max_tries=99999):
+    tries = 0
+    while tries < max_tries:
+        try:
+            return requests.get(url, headers=headers)
+        except requests.exceptions.ConnectionError:
+            time.sleep(1)
+
 def make_request(url):
     headers = {"X-Riot-Token": API_KEY}
-    response = requests.get(url, headers=headers)
+    response = safe_request(url, headers)
     global TIME_SINCE_BREAK, REQ_SINCE_BREAK
     REQ_SINCE_BREAK += 1
     cond1 = REQ_SINCE_BREAK >= REQ_LIMIT
