@@ -12,13 +12,14 @@ REQ_SINCE_BREAK = 0
 REQ_LIMIT = 100
 REQ_TIME_LIMIT = 120
 
-def safe_request(url, headers, max_tries=99999):
+def safe_request(url, headers, max_tries=300):
     tries = 0
     while tries < max_tries:
         try:
             return requests.get(url, headers=headers)
-        except requests.exceptions.ConnectionError:
+        except:
             time.sleep(1)
+    raise Exception("Max tries exceeded while fetching request")
 
 def make_request(url):
     headers = {"X-Riot-Token": API_KEY}
