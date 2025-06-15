@@ -7,5 +7,6 @@ matches/
 **/champions.json
 timelines/*
 features/*
+player_info/*
 checked.json
 notebooks_mc886/
