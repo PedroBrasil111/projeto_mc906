@@ -24,7 +24,7 @@ def write_to_files(all_timeline_features, all_postgame_features, checked):
 
     timeline_filepath = os.path.join(timeline_folder, f"timeline_features_ID{new_id}.json")
     postgame_filepath = os.path.join(postgame_folder, f"postgame_features_ID{new_id}.json")
-    checked_filepath  = os.path.join(postgame_folder, "checked.json")
+    checked_filepath  = os.path.join(checked_folder, "checked.json")
 
     with open(timeline_filepath, "w+", encoding="utf-8") as fp:
         json.dump(all_timeline_features, fp, ensure_ascii=False, indent=4)
@@ -32,10 +32,10 @@ def write_to_files(all_timeline_features, all_postgame_features, checked):
         json.dump(all_postgame_features, fp, ensure_ascii=False, indent=4)
 
     if os.path.exists(checked_filepath):
-        with open(os.path.join(checked_folder, "checked.json"), "r") as fp:
+        with open(checked_filepath, "r") as fp:
             prev_checked = json.load(fp)
             checked = list(set(checked).union(prev_checked))
-    with open("checked.json", "w+") as fp:
+    with open(checked_filepath, "w+") as fp:
         json.dump(checked, fp, ensure_ascii=False, indent=4)
     return checked
 
