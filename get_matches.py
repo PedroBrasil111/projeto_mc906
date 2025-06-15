@@ -57,7 +57,6 @@ def write_matches_anterior(champion, match_details, match_timelines):
         json.dump(match_details, file, ensure_ascii=False, indent=4)
 
 def write_match(champion, match_details, match_timeline):
-
     os.makedirs(f"matches/{champion}", exist_ok=True)
     os.makedirs(f"timelines/{champion}", exist_ok=True)
     match_id = match_details.get("metadata", {}).get("matchId", "unknown")
@@ -72,9 +71,9 @@ def write_match(champion, match_details, match_timeline):
         with open(timeline_file_path, 'w', encoding='utf-8') as file:
             json.dump(match_timeline, file, ensure_ascii=False, indent=4)
 
-def delete_files():
-    tl_path = os.path.join("features", "timeline")
-    pg_path = os.path.join("features", "postgame")
+def delete_files(champion):
+    tl_path = os.path.join("timelines", champion)
+    pg_path = os.path.join("matches"  , champion)
     timelines = [os.path.join(tl_path, fn) for fn in list(os.listdir(tl_path))]
     postgames = [os.path.join(pg_path, fn) for fn in list(os.listdir(pg_path))]
     for fn in timelines + postgames:
@@ -92,7 +91,7 @@ def main():
         print(f"Champion ID for {champion_name}: {champion_id}")
 
     checked = extract_features(f"matches/{champion_name}", f"timelines/{champion_name}")
-    delete_files()
+    delete_files(champion_name)
 
     player_info = load_json(f"player_info/{champion_name}_players.json")
     match_info = []
@@ -113,15 +112,14 @@ def main():
             details = get_match_details(id, macro_region)
             if details and champion_in_match(details, champion_id):
                 timeline = get_match_timeline(id, macro_region)
-                valid += 1
                 write_match(champion_name, details, timeline)
-                write_match(champion_name, details, None)
+                valid += 1
         print(f"Found {valid} valid matches for puuid {player['puuid']} in region {player['region']}.")
         total_matches += valid
         if total_matches >= 50:
             print(f"Extracting features for {total_matches} games...")
             checked = extract_features(f"matches/{champion_name}", f"timelines/{champion_name}")
-            delete_files()
+            delete_files(champion_name)
             total_matches = 0
 
 if __name__ == '__main__':

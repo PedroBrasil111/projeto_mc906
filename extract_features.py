@@ -66,13 +66,14 @@ def extract_match_features(match_details):
 
 ## Funcao gigante pq eu tava com preguica
 def extract_features(matches_dir, timelines_dir):
-    if os.path.exists("checked.json"):
-        with open("checked.json", "r") as fp:
+    checked_path = os.path.join("features", "checked.json")
+    if os.path.exists(checked_path):
+        with open(checked_path, "r") as fp:
             checked = json.load(fp)
     else:
         checked = []
 
-    with open("items/items.json", "r", encoding="utf-8") as fp:
+    with open(os.path.join("items", "items.json"), "r", encoding="utf-8") as fp:
         info = json.load(fp)
         legendary_items = [
             info[str_id]["id"] for str_id in info.keys()

@@ -25,6 +25,7 @@ def make_request(url):
             sleep_time = REQ_TIME_LIMIT - elapsed_time if cond1 else 10
             print(f"\033[93mRate limit reached ({'stopping before getting denied' if cond1 else 'denied by host'}). Sleeping for {sleep_time:.2f} seconds.\033[0m")
             time.sleep(sleep_time)
+            print("We're so back")
         TIME_SINCE_BREAK = time.time()
         REQ_SINCE_BREAK = 0
     if cond2:
