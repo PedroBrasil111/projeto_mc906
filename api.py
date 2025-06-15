@@ -17,8 +17,12 @@ def safe_request(url, headers, max_tries=300):
     while tries < max_tries:
         try:
             return requests.get(url, headers=headers)
-        except:
+        except KeyboardInterrupt:
+            print("Request interrupted by user.")
+            raise
+        except Exception:
             time.sleep(1)
+            tries += 1
     raise Exception("Max tries exceeded while fetching request")
 
 def make_request(url):
