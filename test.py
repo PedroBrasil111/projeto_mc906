@@ -1,14 +1,18 @@
 import os
 import json
 
+for match in os.listdir("matches/Kaisa"):
+    with open(f"matches/Kaisa/{match}", "r", encoding="utf-8") as f:
+        data = json.load(f)
+    mapId = data["info"]["mapId"]
+    gameMode = data["info"]["gameMode"]
+    if mapId != 11:
+        print(mapId, gameMode)
+
+exit(0)
+
 items = [    
-    3042,
-    6655,
-    4645,
-    1043,
-    3108,
-    3006,
-    3340 
+    223006
 ]
 
 with open(os.path.join("items", "items.json"), 'r', encoding='utf-8') as file:
@@ -16,3 +20,4 @@ with open(os.path.join("items", "items.json"), 'r', encoding='utf-8') as file:
 
 for id in items:
     print(f'{id} - {item_list[str(id)]["name"]}')
+
