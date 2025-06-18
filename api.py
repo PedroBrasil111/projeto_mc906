@@ -23,7 +23,7 @@ def safe_request(url, headers, max_tries=300):
         except Exception:
             time.sleep(1)
             tries += 1
-    raise Exception("Max tries exceeded while fetching request")
+    raise Exception(f"Max tries exceeded while fetching request for url {url}")
 
 def make_request(url):
     headers = {"X-Riot-Token": API_KEY}

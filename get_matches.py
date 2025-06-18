@@ -81,7 +81,7 @@ def delete_files(champion):
 
 def main():
     champions = load_json("champions.json")
-    all_champions = list(champions.keys())[86:]
+    all_champions = list(champions.keys())
 
     for champion_name in all_champions:
         print(f"Processing champion: {champion_name}")
@@ -93,7 +93,7 @@ def main():
             checked = json.load(fp)
 
         #player_info = load_json(f"player_info/mono_{champion_name}_players.json")
-        player_info = load_json(f"player_info/best_{champion_name}_players.json")
+        player_info = load_json(f"player_info/all_players.json")
         last_time_valid = {}
 
         total_steps = 1
