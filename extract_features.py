@@ -89,6 +89,8 @@ def extract_features(matches_dir, timelines_dir):
     all_postgame_features = []
 
     for match_json in os.listdir(matches_dir):
+        if not os.path.exists(os.path.join(matches_dir, match_json)):
+            continue
         if match_json in checked:
             continue
 
@@ -103,8 +105,11 @@ def extract_features(matches_dir, timelines_dir):
 
         with open(match, "r", encoding="utf-8") as fp:
             match_details = json.load(fp)
-
+        
+        print(match_json)
         match_features = extract_match_features(match_details)
+        if not match_features:
+            continue
         all_postgame_features.append(match_features)
 
         # Add nome do champ nas features

@@ -7,7 +7,7 @@ from api import make_request
 
 RANKED_QUEUES = ["RANKED_SOLO_5x5", "RANKED_FLEX_SR"]
 RANKS = ["IRON", "BRONZE", "SILVER", "GOLD", "PLATINUM", "DIAMOND", "MASTER", "GRANDMASTER", "CHALLENGER"]
-REGION_MAPPING = {"BR": ["br1"], "NA": ["na1"], "OCE": ["oc1"], "EUNE": ["eun1"], "EUW": ["euw1"], "JP": ["jp1"], "KR": ["kr"], "LAN": ["la1", "la2"], "LAS": ["la1", "la2"], "RU": ["ru"], "TR": ["tr1"], "PH": ["ph2"], "TW": ["tw2"], "SG": ["sg2"], "VN": ["vn2"], "MENA": ["me1"], "TH": ["oc1"], "SEA": ["oc1", "sg2", "tw2", "vn2"]}
+REGION_MAPPING = {"BR": ["br1"], "NA": ["na1"], "OCE": ["oc1"], "EUNE": ["eun1"], "EUW": ["euw1"], "JP": ["jp1"], "KR": ["kr"], "LAN": ["la1", "la2"], "LAS": ["la1", "la2"], "RU": ["ru"], "TR": ["tr1"], "PH": ["ph2"], "TW": ["tw2"], "SG": ["sg2"], "VN": ["vn2"], "MENA": ["me1"], "TH": ["oc1"], "SEA": ["oc1", "sg2", "tw2", "vn2"], "ME": ["me1"]}
 
 def get_champion_html(champion_name):
     filename = os.path.join("champions_html", f"best_{champion_name}.html")
@@ -74,6 +74,7 @@ def puuid_request(gameName, tagLine):
     url = f"https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/{gameName}/{tagLine}"
     response = make_request(url)
     if response.status_code != 200:
+        print(f"Player - {gameName}#{tagLine}")
         return None
     return response.json()
 
@@ -150,7 +151,7 @@ def main(args):
     if args.clean:
         print("Cleaning existing player info files...")
         for champion in query_champions:
-            file_path = f"player_info/{champion}_players.json"
+            file_path = f"player_info/best_{champion}_players.json"
             if os.path.exists(file_path):
                 os.remove(file_path)
                 print(f"Removed {file_path}")
@@ -160,7 +161,7 @@ def main(args):
             continue
         print(f"Processing champion: {champion}")
         html_file = get_champion_html(champion)
-        players = extract_from_html(html_file)
+        players = extract_from_html(html_file)[:2]
         print(f"Extracting PUUIDs")
         infos = get_puuids(players)
         print(f"Extracting ranked info")

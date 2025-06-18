@@ -12,8 +12,6 @@ MACRO_REGION = {"br1": "americas", "na1": "americas", "euw1": "europe", "eun1": 
 
 def get_match_ids(puuid, region, step, count=20):
     url = f"https://{region}.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?type=ranked&start={count*step}&count={count}"
-    print("url is:")
-    print(url)
     response = make_request(url)
     if response.status_code != 200:
         return None
@@ -82,57 +80,61 @@ def delete_files(champion):
         os.remove(fn)
 
 def main():
-    champion_name = "Kaisa"
     champions = load_json("champions.json")
-    champion_id = champions.get(champion_name, {}).get("id")
+    all_champions = list(champions.keys())[86:]
 
-    if not champion_id:
-        print(f"Champion {champion_name} not found in champions.json.")
-        exit(1)
-    else:
-        print(f"Champion ID for {champion_name}: {champion_id}")
+    for champion_name in all_champions:
+        print(f"Processing champion: {champion_name}")
 
-    #checked = extract_features(f"matches/{champion_name}", f"timelines/{champion_name}")
-    delete_files(champion_name)
+        os.makedirs(f"matches/{champion_name}", exist_ok=True)
+        os.makedirs(f"timelines/{champion_name}", exist_ok=True)
 
-    player_info = load_json(f"player_info/{champion_name}_players.json")
-    match_info = []
-    total_matches = 0
+        with open("features/checked.json", "r") as fp:
+            checked = json.load(fp)
 
-    total_steps = 2
-    step = 0
-    count = 100 
-    #variables used to get matches from player
+        #player_info = load_json(f"player_info/mono_{champion_name}_players.json")
+        player_info = load_json(f"player_info/best_{champion_name}_players.json")
+        last_time_valid = {}
 
-    for step in range(total_steps):
-        print(f"new step {str(step)}")
-        for i, player in enumerate(player_info): # 5 APENAS PARA TESTE
-            macro_region = MACRO_REGION[player['region']]
-            match_ids = get_match_ids(player['puuid'], macro_region, step, count)
-            if not match_ids:
-                print(f"Found no matches for puuid {player['puuid']} in region {player['region']}.")
-                continue
+        total_steps = 1
+        start_step = 0
+        count = 50
 
-            print(f"Found {len(match_ids)} matches for puuid {player['puuid']} in region {player['region']}, from {str(step*count)} to {str((step+1)*count)}. Fetching details...")
-            valid = 0
-            for id in match_ids:
-                '''
-                if (os.path.exists(f"matches/{champion_name}/{id}_matches.json") and \
-                        os.path.exists(f"timelines/{champion_name}/{id}_timeline.json")) or \
-                        f"{id}_matches.json" in checked:
-                    continue'''
-                details = get_match_details(id, macro_region)
-                if details and champion_in_match(details, champion_id):
-                    timeline = get_match_timeline(id, macro_region)
-                    write_match(champion_name, details, timeline)
-                    valid += 1
-            print(f"Found {valid} valid matches for puuid {player['puuid']} in region {player['region']}.")
-            total_matches += valid
-            if total_matches >= 50:
-                print(f"Extracting features for {total_matches} games...")
-                checked = extract_features(f"matches/{champion_name}", f"timelines/{champion_name}")
-                delete_files(champion_name)
-                total_matches = 0
+        for step in range(start_step, total_steps + start_step):
+            print(f"new step {str(step)}")
+
+            for i, player in enumerate(player_info):
+                if player['puuid'] in last_time_valid:
+                    if last_time_valid[player['puuid']] == 0:
+                        continue
+
+                macro_region = MACRO_REGION[player['region']]
+                match_ids = get_match_ids(player['puuid'], macro_region, step, count)
+                if not match_ids:
+                    print(f"Found no matches for puuid {player['puuid']} in region {player['region']}.")
+                    continue
+
+                print(f"Found {len(match_ids)} matches for puuid {player['puuid']} in region {player['region']}, from {str(step*count)} to {str((step+1)*count)}. Fetching details...")
+                valid = 0
+                for id in match_ids:
+                    if (os.path.exists(f"matches/{champion_name}/{id}_matches.json") and \
+                            os.path.exists(f"timelines/{champion_name}/{id}_timeline.json")) or \
+                            f"{id}_matches.json" in checked:
+                        valid += 1
+                        continue
+                    details = get_match_details(id, macro_region)
+                    if details: #and champion_in_match(details, champion_id):
+                        timeline = get_match_timeline(id, macro_region)
+                        write_match(champion_name, details, timeline)
+                        valid += 1
+                print(f"Found {valid} valid matches for puuid {player['puuid']} in region {player['region']}.")
+                last_time_valid[player['puuid']] = valid
+
+        total_matches = len(os.listdir(f"timelines/{champion_name}"))
+        if False:#total_matches >= 50:
+            print(f"Extracting features for {total_matches} games...")
+            checked = extract_features(f"matches/{champion_name}", f"timelines/{champion_name}")
+            delete_files(champion_name)
 
 if __name__ == '__main__':
     main()

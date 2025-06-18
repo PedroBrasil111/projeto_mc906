@@ -132,13 +132,13 @@ def main(args):
     if args.clean:
         print("Cleaning existing player info files...")
         for champion in champions:
-            file_path = f"player_info/{champion}_players.json"
+            file_path = f"player_info/mono_{champion}_players.json"
             if os.path.exists(file_path):
                 os.remove(file_path)
                 print(f"Removed {file_path}")
     ids = [champ_ids[champion] for champion in champions]
     for id, champion in zip(ids, champions):
-        if os.path.exists(f"player_info/{champion}_players.json"):
+        if os.path.exists(f"player_info/mono_{champion}_players.json"):
             print(f"Skipping {champion} (ID: {id}), already processed.")
             continue
         print(f"Processing champion: {champion} (ID: {id})")
@@ -148,7 +148,7 @@ def main(args):
         infos = get_puuids(players)
         print(f"Extracting ranked info")
         infos = get_ranked_info(infos)
-        write_to_json(infos, f"player_info/{champion}_players.json")
+        write_to_json(infos, f"player_info/mono_{champion}_players.json")
         print()
         os.remove(html_file)
 
