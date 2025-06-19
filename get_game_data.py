@@ -29,7 +29,7 @@ def get_champion_data(clean=True):
     return path
 
 def get_item_data(clean=True):
-    information_to_keep = ["name", "tier", "rank", "buildsFrom", "buildsInto", "icon"]
+    information_to_keep = ["id", "name", "tier", "rank", "buildsFrom", "buildsInto", "icon"]
     url = f"https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/items.json"
     path = os.path.join("game_data", "items.json")
     if os.path.exists(path):

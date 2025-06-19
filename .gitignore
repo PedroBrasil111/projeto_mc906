@@ -1,18 +1,25 @@
-**/venv/*
+# Environment and system files
+**/venv/
 **/.env
-**/game_data/
-champions_html/*
-items/
-**/matches/*
 **/__pycache__/
-**/champions.json
-**/timelines/*
-features/*
-player_info/*
-checked.json
-notebooks_mc886/
 **.pth
+
+# Game data and output files
+game_data/
+champions_html/
+items/
+**/matches*
+**/timelines*
+**/features*
+**/backup*
+player_info/
+checked.json
+**/champions.json
+**/matches/
+**/timelines/
+_ignore/
+last.txt
 sync
-matches
-timelines
-_ignore
+
+# Notebooks
+notebooks_mc886/

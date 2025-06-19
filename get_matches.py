@@ -3,12 +3,15 @@ import json
 from common import load_json
 from api import make_request
 from extract_features import extract_features
+from get_game_data import get_champion_data
+import shutil
 
 """
 The AMERICAS routing value serves NA, BR, LAN and LAS. The ASIA routing value serves KR and JP. The EUROPE routing value serves EUNE, EUW, ME1, TR and RU. The SEA routing value serves OCE, SG2, TW2 and VN2.
 """
 
 MACRO_REGION = {"br1": "americas", "na1": "americas", "euw1": "europe", "eun1": "europe", "kr": "asia", "kr1":"asia", "jp1": "asia", "oc1": "americas", "la1": "americas", "la2": "americas", "ru": "europe", "tr1": "europe", "ph2": "asia", "tw2": "asia", "sg2": "asia", "vn2": "asia", "me1": "europe",}
+VERSIONS = ["15.10", "15.11", "15.12"]
 
 def get_match_ids(puuid, region, step, count=20):
     url = f"https://{region}.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?type=ranked&start={count*step}&count={count}"
@@ -73,35 +76,73 @@ def write_match(champion, match_details, match_timeline):
 
 def delete_files(champion):
     tl_path = os.path.join("timelines", champion)
-    pg_path = os.path.join("matches"  , champion)
+    pg_path = os.path.join("matches", champion)
+    backup = False
+    if os.path.exists("backup") and os.path.isdir("backup"):
+        os.makedirs(os.path.join("backup", pg_path), exist_ok=True)
+        os.makedirs(os.path.join("backup", tl_path), exist_ok=True)
     timelines = [os.path.join(tl_path, fn) for fn in list(os.listdir(tl_path))]
     postgames = [os.path.join(pg_path, fn) for fn in list(os.listdir(pg_path))]
     for fn in timelines + postgames:
-        os.remove(fn)
+        if backup:
+            shutil.move(fn, os.path.join("backup", fn))
+        else:
+            os.remove(fn)
+
+def is_valid_match(match_details):
+    info = match_details.get("info", {})
+    # A team FF'd before 30 min
+    if any([
+            participant_info["teamEarlySurrendered"]
+            for participant_info in info.get("participants", {})
+           ]) and info.get("gameDuration") < 1800:
+        print(f"Found a FF<30 match")
+        return False
+    # Map is not Summoners Rift
+    if info.get("mapId", 0) != 11:
+        print(f"Found a match not in Summoner's Rift")
+        return False
+    # Not current version
+    if not any([info.get("gameVersion", "").startswith(version) for version in VERSIONS]):
+        print(f"Found a match not on patches {VERSIONS}")
+        return False
+    # Not ranked
+    if not info.get("queueId", 0) in [420, 440]:
+        print("Found non-ranked game")
+        return False
+    return True
 
 def main():
-    champions = load_json("champions.json")
+    champion_path = get_champion_data(clean=False)
+    with open(champion_path, "r", encoding="UTF-8") as fp:
+        champions = json.load(fp)
     all_champions = list(champions.keys())
 
-    for champion_name in all_champions:
-        print(f"Processing champion: {champion_name}")
+    total_steps = 100
+    start_step = 0
+    count = 50
+    last_time_valid = {}
 
-        os.makedirs(f"matches/{champion_name}", exist_ok=True)
-        os.makedirs(f"timelines/{champion_name}", exist_ok=True)
+    for step in range(start_step, total_steps + start_step):
+        print(f"Current step: {step}")
+        for player_origin in [folder for folder in os.listdir("player_info") if os.path.isdir(os.path.join("player_info", folder))]:
+            print(f"Processing: {player_origin}")
 
-        with open("features/checked.json", "r") as fp:
-            checked = json.load(fp)
+            os.makedirs(f"matches/{player_origin}", exist_ok=True)
+            os.makedirs(f"timelines/{player_origin}", exist_ok=True)
 
-        #player_info = load_json(f"player_info/mono_{champion_name}_players.json")
-        player_info = load_json(f"player_info/all_players.json")
-        last_time_valid = {}
+            with open("features/checked.json", "r") as fp:
+                checked = json.load(fp)
 
-        total_steps = 1
-        start_step = 0
-        count = 50
-
-        for step in range(start_step, total_steps + start_step):
-            print(f"new step {str(step)}")
+            player_info = []
+            for player_info_file in os.listdir(os.path.join("player_info", player_origin)):
+                fp = os.path.join("player_info", player_origin, player_info_file)
+                print(f"Using file {fp}")
+                with open(fp, "r", encoding="UTF-8") as fp:
+                    players = json.load(fp)
+                    for p in players:
+                        p["origin"] = f"{player_origin}/{player_info_file}"
+                    player_info.extend(players)
 
             for i, player in enumerate(player_info):
                 if player['puuid'] in last_time_valid:
@@ -117,24 +158,28 @@ def main():
                 print(f"Found {len(match_ids)} matches for puuid {player['puuid']} in region {player['region']}, from {str(step*count)} to {str((step+1)*count)}. Fetching details...")
                 valid = 0
                 for id in match_ids:
-                    if (os.path.exists(f"matches/{champion_name}/{id}_matches.json") and \
-                            os.path.exists(f"timelines/{champion_name}/{id}_timeline.json")) or \
-                            f"{id}_matches.json" in checked:
+                    if (os.path.exists(f"matches/{player_origin}/{id}_matches.json") and \
+                            os.path.exists(f"timelines/{player_origin}/{id}_timeline.json")) or \
+                            id in checked:
                         valid += 1
                         continue
                     details = get_match_details(id, macro_region)
-                    if details: #and champion_in_match(details, champion_id):
+                    if details and is_valid_match(details):
                         timeline = get_match_timeline(id, macro_region)
-                        write_match(champion_name, details, timeline)
+                        details["metadata"]["origin"] = p["origin"]
+                        timeline["metadata"]["origin"] = p["origin"]
+                        write_match(player_origin, details, timeline)
                         valid += 1
                 print(f"Found {valid} valid matches for puuid {player['puuid']} in region {player['region']}.")
                 last_time_valid[player['puuid']] = valid
 
-        total_matches = len(os.listdir(f"timelines/{champion_name}"))
-        if False:#total_matches >= 50:
-            print(f"Extracting features for {total_matches} games...")
-            checked = extract_features(f"matches/{champion_name}", f"timelines/{champion_name}")
-            delete_files(champion_name)
+                total_matches = len(os.listdir(f"timelines/{player_origin}"))
+                print(f"Extracting features for {total_matches} games...")
+                checked = extract_features(f"matches/{player_origin}", f"timelines/{player_origin}")
+                delete_files(player_origin)
+
+                with open(f"last.txt", "w+") as fp:
+                    fp.write(f"{step}, {player['origin']}, {player['puuid']}")
 
 if __name__ == '__main__':
     main()

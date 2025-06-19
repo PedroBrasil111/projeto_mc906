@@ -12,7 +12,7 @@ REQ_SINCE_BREAK = 0
 REQ_LIMIT = 100
 REQ_TIME_LIMIT = 120
 
-def safe_request(url, headers, max_tries=300):
+def safe_request(url, headers, max_tries=3000):
     tries = 0
     while tries < max_tries:
         try:
