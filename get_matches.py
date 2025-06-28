@@ -12,6 +12,7 @@ The AMERICAS routing value serves NA, BR, LAN and LAS. The ASIA routing value se
 
 MACRO_REGION = {"br1": "americas", "na1": "americas", "euw1": "europe", "eun1": "europe", "kr": "asia", "kr1":"asia", "jp1": "asia", "oc1": "americas", "la1": "americas", "la2": "americas", "ru": "europe", "tr1": "europe", "ph2": "asia", "tw2": "asia", "sg2": "asia", "vn2": "asia", "me1": "europe",}
 VERSIONS = ["15.10", "15.11", "15.12"]
+RANKS = ["IRON", "BRONZE", "SILVER", "GOLD", "PLATINUM", "EMERALD", "DIAMOND", "MASTER", "GRANDMASTER", "CHALLENGER"]
 
 def get_match_ids(puuid, region, step, count=20):
     url = f"https://{region}.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?type=ranked&start={count*step}&count={count}"
@@ -77,7 +78,7 @@ def write_match(champion, match_details, match_timeline):
 def delete_files(champion):
     tl_path = os.path.join("timelines", champion)
     pg_path = os.path.join("matches", champion)
-    backup = False
+    backup = True
     if os.path.exists("backup") and os.path.isdir("backup"):
         os.makedirs(os.path.join("backup", pg_path), exist_ok=True)
         os.makedirs(os.path.join("backup", tl_path), exist_ok=True)
@@ -97,20 +98,20 @@ def is_valid_match(match_details):
             for participant_info in info.get("participants", {})
            ]) and info.get("gameDuration") < 1800:
         print(f"Found a FF<30 match")
-        return False
+        return (False, True)
     # Map is not Summoners Rift
     if info.get("mapId", 0) != 11:
         print(f"Found a match not in Summoner's Rift")
-        return False
+        return (False, True)
     # Not current version
     if not any([info.get("gameVersion", "").startswith(version) for version in VERSIONS]):
         print(f"Found a match not on patches {VERSIONS}")
-        return False
+        return (False, False)
     # Not ranked
     if not info.get("queueId", 0) in [420, 440]:
         print("Found non-ranked game")
-        return False
-    return True
+        return (False, True)
+    return (True, True)
 
 def main():
     champion_path = get_champion_data(clean=False)
@@ -120,14 +121,34 @@ def main():
 
     total_steps = 100
     start_step = 0
-    count = 50
+    count = 10
     last_time_valid = {}
 
+    last_step = -1
+    last_origin = last_puuid = ""
+    if os.path.exists("last.txt"):
+        with open("last.txt", "r", encoding="UTF-8") as fp:
+            info = fp.read()
+            last_step, last_origin, last_puuid = info.split(", ")
+
     for step in range(start_step, total_steps + start_step):
+        if step < int(last_step):
+            continue
+        if step == int(last_step):
+            last_step = -1
         print(f"Current step: {step}")
         for player_origin in [folder for folder in os.listdir("player_info") if os.path.isdir(os.path.join("player_info", folder))]:
-            print(f"Processing: {player_origin}")
 
+            print(f"Processing: {player_origin}")
+            if last_origin and player_origin not in last_origin:
+                continue
+            if player_origin in last_origin:
+                last_origin = ""
+
+            if player_origin in RANKS:
+                count = 100
+            else:
+                count = 10
             os.makedirs(f"matches/{player_origin}", exist_ok=True)
             os.makedirs(f"timelines/{player_origin}", exist_ok=True)
 
@@ -136,6 +157,7 @@ def main():
 
             player_info = []
             for player_info_file in os.listdir(os.path.join("player_info", player_origin)):
+
                 fp = os.path.join("player_info", player_origin, player_info_file)
                 print(f"Using file {fp}")
                 with open(fp, "r", encoding="UTF-8") as fp:
@@ -145,6 +167,11 @@ def main():
                     player_info.extend(players)
 
             for i, player in enumerate(player_info):
+                if last_puuid and player['puuid'] != last_puuid:
+                    continue
+                if last_puuid == player['puuid']:
+                    last_puuid = ""
+
                 if player['puuid'] in last_time_valid:
                     if last_time_valid[player['puuid']] == 0:
                         continue
@@ -164,8 +191,15 @@ def main():
                         valid += 1
                         continue
                     details = get_match_details(id, macro_region)
-                    if details and is_valid_match(details):
+                    if details:
+                        is_valid, can_continue = is_valid_match(details)
+                        if not can_continue:
+                            break
+                        if not is_valid:
+                            continue
                         timeline = get_match_timeline(id, macro_region)
+                        if not timeline:
+                            continue
                         details["metadata"]["origin"] = p["origin"]
                         timeline["metadata"]["origin"] = p["origin"]
                         write_match(player_origin, details, timeline)
