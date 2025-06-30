@@ -20,6 +20,9 @@ checked.json
 _ignore/
 last.txt
 sync
+run.cmd
+test**
+**.pt
 
 # Notebooks
 notebooks_mc886/
